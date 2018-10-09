@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Goblin+One');
+
+#head, #mid, #foot {
+  width: 500px;
+  height: 250px;
+  background-color: white;
+  background-image: url(images/back.jpg);
+  background-size: cover;
+  border-radius: 15px;
+  box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.4);
+  margin: 5px;
+  transition: all 0.25s;
+}
+
+body {
+  padding: 100px;
+  background: #333;
+}
+
+#shuffle {
+  font-family: "Goblin One";
+  padding: 25px;
+  margin: 25px 10px;
+  font-size: 30px;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 5px;
+  background: #c8446c;
+  color: white;
+}
