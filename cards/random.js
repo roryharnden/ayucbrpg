@@ -5,7 +5,7 @@ link.addEventListener("click", shuffle);
 function shuffle(){
 
 
-  var imgCount = 16;
+  var imgCount = 54;
   var dir = "images/";
   var count = 16;
   var skewAmount = 5;
@@ -20,4 +20,4 @@ function shuffle(){
   document.getElementById("foot").style.transform = "rotate(" + (Math.round(Math.random() * (+ skewAmount - 1)) - (0.5 * skewAmount)) + "deg)";
 
 };
-shuffle();  
+shuffle();

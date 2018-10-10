@@ -5,14 +5,26 @@ link.addEventListener("click", shuffle);
 
 var allSets = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54];
 
+var usedCards = [];
+
+
+
 function shuffle() {
 
-  width = 4;
+
+  var dir = "images/map_";
+  var skewAmount = 3;
 
   var top = [11, 12, 18, 19, 20, 24, 26, 28, 30, 33, 34, 37, 39, 42, 43, 52];
   var right = [3, 10, 11, 17, 23, 24, 25, 28, 29, 30, 33, 34, 51];
   var bottom = [2, 3, 9, 10, 11, 15, 17, 19, 21, 24, 25, 28, 30, 33, 34, 43];
   var left = [4, 10, 11, 12, 18, 24, 25, 26, 28, 29, 30, 31, 34, 35, 52];
+
+  allSets = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54];
+
+  width = 4;
+
+  usedCards = [];
 
   landTop = allSets.filter(function(item) {
     return top.indexOf(item) === -1;
@@ -30,8 +42,6 @@ function shuffle() {
   var currentCard = 0;
 
 
-  var dir = "images/map_";
-  var skewAmount = 5;
   var waterRight = 2;
   var waterBottom = 2;
   // console.log("waterRight = " + waterRight);
@@ -45,6 +55,11 @@ function shuffle() {
 
   //Loop over the array...
   divArray.forEach(function(div) {
+
+
+    allSets = allSets.filter(function(item) {
+      return usedCards.indexOf(item) === -1;
+    });
 
     // console.log(currentCard % width);
     if (currentCard % width === 0) {
@@ -60,7 +75,7 @@ function shuffle() {
       // console.log(tiles[aboveCard]);
       aboveCardNumber = tiles[aboveCard];
       if (bottom.indexOf(aboveCardNumber) !== -1) {
-        console.log("Found water on bottom");
+        // console.log("Found water on bottom");
         waterBottom = 1;
       } else {
         waterBottom = 0;
@@ -69,25 +84,21 @@ function shuffle() {
 
 
     if (firstInRow == 1) {
+      // if card above does not have water at bottom
       if (waterBottom == 0) {
         var children = allSets.filter(value => -1 !== landTop.indexOf(value));
-        // console.log("Children = " + children);
       } else if (waterBottom == 1) {
         var children = allSets.filter(value => -1 !== top.indexOf(value));
-        // console.log("Children = " + children);
       } else {
         var children = allSets;
       }
     } else if (waterRight == 1) {
       if (waterBottom == 0) {
         var children = left.filter(value => -1 !== landTop.indexOf(value));
-        // console.log("Children = " + children);
       } else if (waterBottom == 1) {
         var children = left.filter(value => -1 !== top.indexOf(value));
-        // console.log("Children = " + children);
       } else {
         var children = left.filter(value => -1 !== allSets.indexOf(value));
-        // console.log("Children = " + children);
       }
     } else {
       // console.log("Next tile to not have water on the left");
@@ -116,15 +127,20 @@ function shuffle() {
     }
 
     div.style.backgroundImage = "url(" + dir + randomBG + ".jpg)";
+    div.style.transform = "rotate(" + (Math.round(Math.random() * (+ skewAmount - 1)) - (0.5 * skewAmount)) + "deg)";
 
-    for (var i in allSets) {
-      if (allSets[i] == currentCard) {
-        allSets.splice(i, 1);
-        break;
-      }
-    }
+    usedCards.push(randomBG);
+
+    // intended to remove currentCard from allSets
+    // for (var i in allSets) {
+    //   if (allSets[i] == currentCard) {
+    //     allSets.splice(i, 1);
+    //     break;
+    //   }
+    // }
 
     console.log("allSets = " + allSets);
+    console.log("usedCards = " + usedCards);
 
     currentCard++;
     // console.log(tiles[currentCard -]);
