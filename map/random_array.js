@@ -3,7 +3,7 @@ var link = document.getElementById("shuffle");
 link.addEventListener("click", shuffle);
 
 
-
+var allSets = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54];
 
 function shuffle() {
 
@@ -13,9 +13,6 @@ function shuffle() {
   var right = [3, 10, 11, 17, 23, 24, 25, 28, 29, 30, 33, 34, 51];
   var bottom = [2, 3, 9, 10, 11, 15, 17, 19, 21, 24, 25, 28, 30, 33, 34, 43];
   var left = [4, 10, 11, 12, 18, 24, 25, 26, 28, 29, 30, 31, 34, 35, 52];
-  var allSets = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54];
-
-  var currentCard = 0;
 
   landTop = allSets.filter(function(item) {
     return top.indexOf(item) === -1;
@@ -29,6 +26,9 @@ function shuffle() {
   landLeft = allSets.filter(function(item) {
     return left.indexOf(item) === -1;
   });
+
+  var currentCard = 0;
+
 
   var dir = "images/map_";
   var skewAmount = 5;
@@ -46,11 +46,18 @@ function shuffle() {
   //Loop over the array...
   divArray.forEach(function(div) {
 
+    // console.log(currentCard % width);
+    if (currentCard % width === 0) {
+      firstInRow = 1;
+    } else {
+      firstInRow = 0;
+    }
+    // console.log("firstInRow = " + firstInRow);
 
     aboveCard = currentCard - width;
     // console.log("aboveCard is " + aboveCard);
     if (aboveCard >= 0) {
-      console.log(tiles[aboveCard]);
+      // console.log(tiles[aboveCard]);
       aboveCardNumber = tiles[aboveCard];
       if (bottom.indexOf(aboveCardNumber) !== -1) {
         console.log("Found water on bottom");
@@ -61,31 +68,38 @@ function shuffle() {
     }
 
 
-    if (waterRight == 2) {
-      // console.log("Next tile to be any");
-      var children = allSets;
+    if (firstInRow == 1) {
+      if (waterBottom == 0) {
+        var children = allSets.filter(value => -1 !== landTop.indexOf(value));
+        // console.log("Children = " + children);
+      } else if (waterBottom == 1) {
+        var children = allSets.filter(value => -1 !== top.indexOf(value));
+        // console.log("Children = " + children);
+      } else {
+        var children = allSets;
+      }
     } else if (waterRight == 1) {
       if (waterBottom == 0) {
         var children = left.filter(value => -1 !== landTop.indexOf(value));
-        console.log("Children = " + children);
+        // console.log("Children = " + children);
       } else if (waterBottom == 1) {
         var children = left.filter(value => -1 !== top.indexOf(value));
-        console.log("Children = " + children);
+        // console.log("Children = " + children);
       } else {
-        var children = left;
-        console.log("Children = " + children);
+        var children = left.filter(value => -1 !== allSets.indexOf(value));
+        // console.log("Children = " + children);
       }
     } else {
       // console.log("Next tile to not have water on the left");
       if (waterBottom == 0) {
         var children = landLeft.filter(value => -1 !== landTop.indexOf(value));
-        console.log("Children = " + children);
+        // console.log("Children = " + children);
       } else if (waterBottom == 1) {
         var children = landLeft.filter(value => -1 !== top.indexOf(value));
-        console.log("Children = " + children);
+        // console.log("Children = " + children);
       } else {
-        var children = landLeft;
-        console.log("Children = " + children);
+        var children = landLeft.filter(value => -1 !== allSets.indexOf(value));
+        // console.log("Children = " + children);
       }
     }
 
@@ -102,6 +116,15 @@ function shuffle() {
     }
 
     div.style.backgroundImage = "url(" + dir + randomBG + ".jpg)";
+
+    for (var i in allSets) {
+      if (allSets[i] == currentCard) {
+        allSets.splice(i, 1);
+        break;
+      }
+    }
+
+    console.log("allSets = " + allSets);
 
     currentCard++;
     // console.log(tiles[currentCard -]);
