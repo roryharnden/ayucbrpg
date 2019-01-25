@@ -5,7 +5,7 @@ link.addEventListener("click", shuffle);
 function shuffle(){
 
 
-  var imgCount = 54;
+  var imgCount = 16;
   var dir = "images/";
   var count = 16;
   var skewAmount = 5;

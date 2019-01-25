@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Goblin+One');
 
 #card .item {
-  width: 200px;
-  height: 400px;
+  width: 150px;
+  height: 300px;
   background-color: white;
   background-image: url(images/back.jpg);
   background-size: cover;
