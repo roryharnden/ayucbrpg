@@ -1,30 +1,51 @@
 @import url('https://fonts.googleapis.com/css?family=Goblin+One');
 
 #head, #mid, #foot {
-  width: 500px;
-  height: 250px;
+  width: 50vh;
+  height: 25vh;
   background-color: white;
   background-image: url(images/back.jpg);
   background-size: cover;
   border-radius: 15px;
   box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.4);
-  margin: 5px;
+  margin: 5px auto;
   transition: all 0.25s;
 }
 
 body {
-  padding: 100px;
+  padding-top: 5vh;
   background: #333;
 }
 
 #shuffle {
   font-family: "Goblin One";
   padding: 25px;
-  margin: 25px 10px;
+  margin: 25px auto;
   font-size: 30px;
   text-transform: uppercase;
   border: 0;
   border-radius: 5px;
-  background: #c8446c;
+  background: #eb2d6d;
   color: white;
+  display: block;
+  transform: translateY(-10px);
+  box-shadow: 0 10px #343860, 0 10px 90px #222;
+  transition: all .05s;
+}
+
+#shuffle:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px #343860, 0 10px 90px #222;
+  background: white;
+  color: #eb2d6d;
+}
+
+#shuffle:active {
+  transform: translateY(0px);
+  box-shadow: 0 0px #eb2d6d, 0 10px 90px #222;
+  background: #29dcc3;
+  color: white;
+}
+
+#wrap {
 }
