@@ -49,3 +49,16 @@ body {
 
 #wrap {
 }
+
+#object, #item {
+  color: white;
+  font-family: "Goblin One";
+}
+
+#desc {
+  color: white;
+  margin: 10px auto;
+  font-family: "Courier New", Courier, monospace;
+    width: 100%;
+    text-align: center;
+}

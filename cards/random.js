@@ -51,6 +51,38 @@ function shuffle(){
       setQueryStringParameter("b", midCount);
       setQueryStringParameter("c", footCount);
 
+
+
+      var data = [
+        [1,"a tattoo","a beard"],
+        [2,"an eyepatch","a tounge"],
+        [3,"map","sausage"],
+        [4,"map","sausage"],
+        [5,"sock","sausage"],
+        [6,"map","sausage"],
+        [7,"a mask","some lipstick"],
+        [8,"map","sausage"],
+        [9,"map","sausage"],
+        [10,"map","sausage"],
+        [11,"map","sausage"],
+        [12,"map","sausage"],
+        [13,"map","sausage"],
+        [14,"map","sausage"],
+        [15,"a spear","an earring"],
+        [16,"map","sausage"]
+      ],
+          object = {};
+          item = {};
+
+      data.forEach(function (aaa) {
+          object[aaa[0]] = aaa[1];
+          item[aaa[0]] = aaa[2];
+      });
+
+      // usage
+      document.getElementById('object').innerHTML = (object[headCount]);
+      document.getElementById('item').innerHTML = (item[headCount] + '!');
+
 };
 
 console.log(a,b,c);
