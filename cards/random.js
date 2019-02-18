@@ -51,10 +51,10 @@ function shuffle(){
       setQueryStringParameter("b", midCount);
       setQueryStringParameter("c", footCount);
 
-
+// tips from https://stackoverflow.com/questions/36718344/recreating-a-lookup-table-in-javascript
 
       var data = [
-        [1,"a tattoo","a beard"],
+        [1,"electricity","a beard",],
         [2,"an eyepatch","a tounge"],
         [3,"map","sausage"],
         [4,"map","sausage"],
@@ -66,7 +66,7 @@ function shuffle(){
         [10,"map","sausage"],
         [11,"map","sausage"],
         [12,"map","sausage"],
-        [13,"map","sausage"],
+        [13,"bees!","sweet things","a net"],
         [14,"map","sausage"],
         [15,"a spear","an earring"],
         [16,"map","sausage"]
@@ -75,13 +75,15 @@ function shuffle(){
           item = {};
 
       data.forEach(function (aaa) {
-          object[aaa[0]] = aaa[1];
-          item[aaa[0]] = aaa[2];
+          strength[aaa[0]] = aaa[1];
+          weakness[aaa[0]] = aaa[2];
+          item[aaa[0]] = aaa[3];
       });
 
       // usage
-      document.getElementById('object').innerHTML = (object[headCount]);
-      document.getElementById('item').innerHTML = (item[headCount] + '!');
+      document.getElementById('strength').innerHTML = (strength[headCount]);
+      document.getElementById('weakness').innerHTML = (weakness[midCount - 16]);
+      document.getElementById('item').innerHTML = (item[footCount - 32]);
 
 };
 
