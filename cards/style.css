@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Goblin+One');
 
+#wrapper {
+  padding: 20px;
+}
+
+
 #head, #mid, #foot {
   width: 50vh;
   height: 25vh;
@@ -13,7 +18,8 @@
 }
 
 body {
-  padding-top: 5vh;
+  padding: 5vh;
+  margin: 0;
   background: #333;
 }
 
