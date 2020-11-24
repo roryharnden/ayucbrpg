@@ -13,9 +13,9 @@ c = location.search.split('c=').splice(1).join('').split('&')[0];
 function shuffle(){
 
 
-    var imgCount = 16;
+    var imgCount = 18;
     var dir = "images/";
-    var count = 16;
+    var count = 18;
     var skewAmount = 5;
       document.getElementById("head").style.transform = "rotate(" + (Math.round(Math.random() * (+ skewAmount - 1)) - (0.5 * skewAmount)) + "deg)";
 
