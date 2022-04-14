@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+@import url("https://fonts.googleapis.com/css?family=Goblin+One");#wrapper{padding:20px}#head,#mid,#foot{width:50vmin;height:25vmin;background-color:white;background-image:url(images/back.jpg);background-size:cover;border-radius:15px;box-shadow:1px 2px 5px 0px rgba(0,0,0,0.4);margin:5px auto;transition:all 0.25s}body{padding:0;margin:0;background:#333}#shuffle{font-family:"Goblin One";padding:25px;margin:25px auto;font-size:30px;text-transform:uppercase;border:0;border-radius:5px;background:#eb2d6d;color:white;display:block;transform:translateY(-10px);box-shadow:0 10px #343860, 0 10px 90px #222;transition:all .05s}#shuffle:hover{transform:translateY(-2px);box-shadow:0 2px #343860, 0 10px 90px #222;background:white;color:#eb2d6d}#shuffle:active{transform:translateY(0px);box-shadow:0 0px #eb2d6d, 0 10px 90px #222;background:#29dcc3;color:white}#desc{color:white;margin:10px auto;font-family:"Courier New", Courier, monospace;width:50vmin;padding-bottom:25px}#desc span{color:white;font-family:"Goblin One"}
+=======
 #wrapper {
   padding: 20px;
 }
@@ -74,3 +77,4 @@ body {
   width: 50vh;
   padding-bottom: 25px;
 }
+>>>>>>> ebfa70573e79bcba243a333c7852eab30e315d66
