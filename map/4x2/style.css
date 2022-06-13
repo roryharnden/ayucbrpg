@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Goblin+One');
+
+#wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -300px 0 0 -300px;
+}
+
+#card .item {
+  width: 150px;
+  height: 300px;
+  background-color: white;
+  background-image: url(images/back.jpg);
+  background-size: cover;
+  border-radius: 12px;
+  box-shadow: 1px 2px 25px 0px rgba(0, 0, 0, 0.25);
+  margin: 0px;
+  transition: all 0.5s;
+  float: left;
+}
+
+#controls {
+  font-family: "Goblin One";
+  font-size: 18px;
+  color: white;
+  padding: 10px 0;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+#seed {
+  float: left;
+  padding-top: 12px;
+}
+
+#control {
+  padding: 0 5px;
+  float: right;
+}
+
+body {
+  padding: 50px;
+  /* background: #ffee34; */
+  position: relative;
+}
+
+#shuffle {
+  font-family: "Goblin One";
+  padding: 12px;
+  font-size: 18px;
+  border: 0;
+  border-radius: 5px;
+  background: #34d2e9;
+  color: white;
+  background-size: 500px;
+  text-shadow: black 0px 0px 50px;
+  transform: translateY(0px);
+  transition: all 0.2s;
+  box-shadow: 0px 8px 0px 0px #149ac6;
+}
+
+#shuffle:hover {
+  background: #d554e3;
+  color: #333;
+  transform: translateY(6px);
+  box-shadow: 0px 2px 0px 0px #b432c2;
+}
