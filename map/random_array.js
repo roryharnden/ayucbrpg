@@ -43,7 +43,7 @@ function shuffle() {
 
   var currentCard = 0;
 
-
+  
   var waterRight = 2;
   var waterBottom = 2;
   // console.log("waterRight = " + waterRight);
@@ -57,11 +57,6 @@ function shuffle() {
 
   //Loop over the array...
   divArray.forEach(function(div) {
-
-
-    allSets = allSets.filter(function(item) {
-      return usedCards.indexOf(item) === -1;
-    });
 
     // console.log(currentCard % width);
     if (currentCard % width === 0) {
@@ -116,6 +111,10 @@ function shuffle() {
       }
     }
 
+    children = children.filter(function(item) {
+      return !tiles.includes(item);
+    });
+
 
     var randomBG = children[Math.floor(Math.random() * children.length)]
     tiles.push(randomBG);
@@ -130,8 +129,6 @@ function shuffle() {
 
     div.style.backgroundImage = "url(" + dir + randomBG + ".jpg)";
     div.style.transform = "rotate(" + (Math.round(Math.random() * (+ skewAmount )) - (0.5 * skewAmount)) + "deg)";
-
-    usedCards.push(randomBG);
 
     // intended to remove currentCard from allSets
     // for (var i in allSets) {

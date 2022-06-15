@@ -126,6 +126,9 @@ function shuffle() {
       }
     }
 
+    children = children.filter(function(item) {
+      return !tiles.includes(item);
+    });
 
     var randomBG = children[Math.floor(Math.random() * children.length)]
     tiles.push(randomBG);
@@ -140,16 +143,6 @@ function shuffle() {
 
     div.style.backgroundImage = "url(" + dir + randomBG + ".jpg)";
     div.style.transform = "rotate(" + (Math.round(Math.random() * (+ skewAmount )) - (0.5 * skewAmount)) + "deg)";
-
-    usedCards.push(randomBG);
-
-    // intended to remove currentCard from allSets
-    for (var i in allSets) {
-      if (allSets[i] == currentCard) {
-        allSets.splice(i, 1);
-        break;
-      }
-    }
 
     console.log("allSets = " + allSets);
     console.log("usedCards = " + usedCards);
