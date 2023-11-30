@@ -23,15 +23,21 @@ canvas {
   height: 400px; /* Height of the card */
   background-image: url("../map-v3/images/back.jpg"); /* Card background image */
   background-size: cover;
-  border-radius: 1rem;
+  border-radius: 0.75rem;
   background-size: cover;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: adds a shadow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .card.unknown-card {
-  border: 2px dotted dodgerblue;
   background-image: none;
+  background-color: lightsalmon;
   box-shadow: none;
 }
 .card.panzoom-exclude {
   cursor: pointer;
+}
+.card .remove-button.hidden {
+  display: none;
+}
+.card:hover .remove-button {
+  display: block; /* or inline-block, depending on your layout */
 }/*# sourceMappingURL=style.css.map */
