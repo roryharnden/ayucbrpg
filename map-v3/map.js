@@ -6,7 +6,7 @@ var ctx = canvas.getContext("2d");
 
 const cardWidth = 200; // width of a card in pixels
 const cardHeight = 400; // height of a card in pixels
-const cardSpacing = 0; // space between cards in pixels
+const cardSpacing = -2; // space between cards in pixels
 
 // Function to resize the canvas to fill the browser window
 function resizeCanvas() {
@@ -100,6 +100,7 @@ function changeCardBackground() {
     placeNewCardIfEmpty(x - 1, y); // Left
     usedCardIds.push(matchingCard.id);
 
+
     // Create a remove button and add it to the card
     var removeButton = document.createElement("button");
     removeButton.innerHTML = "Remove";
@@ -108,6 +109,8 @@ function changeCardBackground() {
       removeCard(x, y);
     };
     this.appendChild(removeButton);
+
+    applyRandomStyle(this); // Apply random style to the new card
 
     // Remove invalid 'unknown' cards in adjacent positions
     removeInvalidUnknownCards(x, y);
@@ -132,7 +135,15 @@ function removeCard(x, y) {
 
     // Re-evaluate unknown cards after removal
     removeInvalidUnknownCards();
+    reevaluateForUnknownCards();
   }
+}
+
+function applyRandomStyle(cardElement) {
+  const rotation = (Math.random() - 0.5) * 2; // Random rotation between -5 and 5 degrees
+  const shiftX = (Math.random() - 0.5) * 4; // Random horizontal shift between -2 and 2 pixels
+
+  cardElement.style.transform = `rotate(${rotation}deg) translateX(${shiftX}px)`;
 }
 
 function createNewUnknownCard(x, y) {
@@ -194,6 +205,23 @@ function createNewCard(x, y) {
   document.getElementById("cardContainer").appendChild(newCard);
 }
 
+function reevaluateForUnknownCards() {
+  const allCards = document.querySelectorAll(".card:not(.unknown-card)");
+  allCards.forEach((cardElem) => {
+    const position = cardElem
+      .getAttribute("data-position")
+      .split(",")
+      .map(Number);
+    const [x, y] = position;
+
+    // Check and place new 'unknown' cards in adjacent positions
+    placeNewCardIfEmpty(x, y - 1); // Top
+    placeNewCardIfEmpty(x + 1, y); // Right
+    placeNewCardIfEmpty(x, y + 1); // Bottom
+    placeNewCardIfEmpty(x - 1, y); // Left
+  });
+}
+
 // Initialize the first card (mapCard) and add click detection
 var mapCard = document.querySelector(".card");
 if (mapCard) {
@@ -205,7 +233,7 @@ if (mapCard) {
 
 const elem = document.getElementById("cardContainer");
 const panzoom = Panzoom(elem, {
-  maxScale: 1,
+  maxScale: 2,
   minScale: 0.5,
 
   canvas: true,

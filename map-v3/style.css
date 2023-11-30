@@ -24,13 +24,16 @@ canvas {
   background-image: url("../map-v3/images/back.jpg"); /* Card background image */
   background-size: cover;
   border-radius: 0.75rem;
+  position: absolute;
   background-size: cover;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 2;
 }
 .card.unknown-card {
   background-image: none;
   background-color: lightsalmon;
   box-shadow: none;
+  z-index: 1;
 }
 .card.panzoom-exclude {
   cursor: pointer;
