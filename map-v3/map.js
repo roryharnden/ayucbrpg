@@ -1,24 +1,8 @@
 let usedCardIds = []; // To keep track of used card IDs
 
-// Get the canvas element
-var canvas = document.getElementById("myCanvas");
-var ctx = canvas.getContext("2d");
-
 const cardWidth = 200; // width of a card in pixels
 const cardHeight = 400; // height of a card in pixels
 const cardSpacing = -2; // space between cards in pixels
-
-// Function to resize the canvas to fill the browser window
-function resizeCanvas() {
-  canvas.width = window.innerWidth;
-  canvas.height = window.innerHeight;
-}
-
-// Resize the canvas to fill the browser window initially
-resizeCanvas();
-
-// Event listener to resize the canvas when the browser window is resized
-window.addEventListener("resize", resizeCanvas);
 
 function addClickDetection(cardElement) {
   cardElement.addEventListener("click", function () {
@@ -32,6 +16,30 @@ function addClickDetection(cardElement) {
     changeCardBackground.call(this);
   });
 }
+
+// function centerCardContainer() {
+//   var cardWrap = document.querySelector(".card-wrap");
+//   var cardContainer = document.getElementById("cardContainer");
+
+//   // Calculate the center position
+//   var centerX = cardWrap.offsetWidth / 2 + cardWidth / 2;
+//   var centerY = cardWrap.offsetHeight / 2 - cardHeight / 2;
+//   console.log(centerX);
+//   console.log(centerY);
+
+//   // Center the cardContainer
+//   cardContainer.style.position = "absolute";
+//   cardContainer.style.left = centerX + "px";
+//   cardContainer.style.top = centerY + "px";
+//   cardContainer.style.transform = "translate(-50%, -50%)";
+
+//   // Optional: Adjust the size of cardContainer if necessary
+//   // cardContainer.style.width = ...;
+//   // cardContainer.style.height = ...;
+// }
+
+// // Call this function on initial load and window resize
+// centerCardContainer();
 
 function findMatchingCard(x, y) {
   const topCard = getCardData(x, y - 1);
@@ -99,7 +107,6 @@ function changeCardBackground() {
     placeNewCardIfEmpty(x, y + 1); // Bottom
     placeNewCardIfEmpty(x - 1, y); // Left
     usedCardIds.push(matchingCard.id);
-
 
     // Create a remove button and add it to the card
     var removeButton = document.createElement("button");
@@ -172,7 +179,10 @@ function removeInvalidUnknownCards() {
     const [checkX, checkY] = position;
 
     // Check if the card is adjacent to any known card and has a valid match
-    if (!isAdjacentToKnownCard(checkX, checkY) || findMatchingCard(checkX, checkY) === null) {
+    if (
+      !isAdjacentToKnownCard(checkX, checkY) ||
+      findMatchingCard(checkX, checkY) === null
+    ) {
       cardElem.remove(); // Remove the card if it's isolated or has no valid match
     }
   });
@@ -184,10 +194,9 @@ function isAdjacentToKnownCard(x, y) {
     getCardData(x, y - 1) || // Top
     getCardData(x + 1, y) || // Right
     getCardData(x, y + 1) || // Bottom
-    getCardData(x - 1, y)    // Left
+    getCardData(x - 1, y) // Left
   );
 }
-
 
 function placeNewCardIfEmpty(x, y) {
   var existingCard = document.querySelector(`[data-position="${x},${y}"]`);
@@ -243,15 +252,14 @@ if (mapCard) {
 
 // Panzoom
 
-
 const elem = document.getElementById("cardContainer");
 const panzoom = Panzoom(elem, {
   maxScale: 2,
   minScale: 0.5,
   step: 0.1,
   canvas: true,
+  animate: true,
 });
-setTimeout(() => panzoom.pan(500, 200)), panzoom.zoom(1, { animate: true });
 
 elem.parentElement.addEventListener("wheel", panzoom.zoomWithWheel);
 

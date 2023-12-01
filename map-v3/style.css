@@ -7,15 +7,25 @@ body {
   position: relative;
 }
 
-canvas {
-  display: block;
-  background-color: lightcoral;
-}
-
 #cardContainer {
   position: absolute;
-  left: 0;
-  top: 0;
+}
+
+.page-wrap {
+  display: flex;
+  height: 100%;
+}
+
+.sidebar {
+  min-width: 16rem;
+  background-color: chartreuse;
+  z-index: 3;
+}
+
+.card-wrap {
+  flex-grow: 1;
+  background-color: lightcoral;
+  overflow: hidden;
 }
 
 .card {
@@ -24,7 +34,7 @@ canvas {
   background-image: url("../map-v3/images/back.jpg"); /* Card background image */
   background-size: cover;
   border-radius: 0.75rem;
-  position: absolute;
+  position: relative;
   background-size: cover;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   z-index: 2;
