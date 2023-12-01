@@ -38,6 +38,17 @@ canvas {
 .card.panzoom-exclude {
   cursor: pointer;
 }
+.card .remove-button {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  width: 1rem;
+  height: 1rem;
+  border: none;
+  background-color: white;
+  background-image: url(../map-v3/icons/close.svg);
+  border-radius: 1rem;
+}
 .card .remove-button.hidden {
   display: none;
 }

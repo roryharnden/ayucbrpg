@@ -103,7 +103,7 @@ function changeCardBackground() {
 
     // Create a remove button and add it to the card
     var removeButton = document.createElement("button");
-    removeButton.innerHTML = "Remove";
+    // removeButton.innerHTML = "Remove";
     removeButton.classList.add("remove-button", "hidden");
     removeButton.onclick = function () {
       removeCard(x, y);
@@ -171,11 +171,23 @@ function removeInvalidUnknownCards() {
       .map(Number);
     const [checkX, checkY] = position;
 
-    if (findMatchingCard(checkX, checkY) === null) {
-      cardElem.remove(); // Remove the card if no valid match is found
+    // Check if the card is adjacent to any known card and has a valid match
+    if (!isAdjacentToKnownCard(checkX, checkY) || findMatchingCard(checkX, checkY) === null) {
+      cardElem.remove(); // Remove the card if it's isolated or has no valid match
     }
   });
 }
+
+function isAdjacentToKnownCard(x, y) {
+  // Check the four adjacent positions for a known card
+  return (
+    getCardData(x, y - 1) || // Top
+    getCardData(x + 1, y) || // Right
+    getCardData(x, y + 1) || // Bottom
+    getCardData(x - 1, y)    // Left
+  );
+}
+
 
 function placeNewCardIfEmpty(x, y) {
   var existingCard = document.querySelector(`[data-position="${x},${y}"]`);
@@ -231,14 +243,15 @@ if (mapCard) {
 
 // Panzoom
 
+
 const elem = document.getElementById("cardContainer");
 const panzoom = Panzoom(elem, {
   maxScale: 2,
   minScale: 0.5,
-
+  step: 0.1,
   canvas: true,
 });
-setTimeout(() => panzoom.pan(0, 0)), panzoom.zoom(1, { animate: true });
+setTimeout(() => panzoom.pan(500, 200)), panzoom.zoom(1, { animate: true });
 
 elem.parentElement.addEventListener("wheel", panzoom.zoomWithWheel);
 

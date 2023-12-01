@@ -7,11 +7,11 @@ body {
   position: relative;
 }
 canvas {
-  display: block; 
+  display: block;
   background-color: lightcoral;
 }
 #cardContainer {
-  position: absolute; 
+  position: absolute;
   left: 0;
   top: 0;
 }
@@ -22,22 +22,33 @@ canvas {
   background-image: url("../map-v3/images/back.jpg"); /* Card background image */
   background-size: cover;
   border-radius: 0.75rem;
-position: absolute;
+  position: absolute;
   background-size: cover;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   z-index: 2;
   &.unknown-card {
     // border: 2px dotted dodgerblue;
-    background-image:none;
+    background-image: none;
     background-color: lightsalmon;
     box-shadow: none;
     z-index: 1;
   }
   &.panzoom-exclude {
-    cursor:pointer;
+    cursor: pointer;
   }
-  .remove-button.hidden {
-    display: none;
+  .remove-button {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+    border: none;
+    background-color: white;
+    background-image: url(../map-v3/icons/close.svg);
+    border-radius: 1rem;
+    &.hidden {
+      display: none;
+    }
   }
   &:hover .remove-button {
     display: block; /* or inline-block, depending on your layout */
