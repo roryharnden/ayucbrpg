@@ -4,6 +4,23 @@ const cardWidth = 200; // width of a card in pixels
 const cardHeight = 400; // height of a card in pixels
 const cardSpacing = -2; // space between cards in pixels
 
+let cardData = []; // Declare cardData in the global scope
+
+async function loadCardData() {
+  const response = await fetch('./cards.json');
+  cardData = await response.json(); // Assign the fetched data to cardData
+}
+
+// Call loadCardData when the document is loaded
+document.addEventListener('DOMContentLoaded', () => {
+  loadCardData().then(() => {
+    // You can initialize other elements or functions that depend on cardData here
+    // For example:
+    // initializeMap();
+  });
+});
+
+
 function addClickDetection(cardElement) {
   cardElement.addEventListener("click", function () {
     // Check if the card is already revealed
@@ -30,18 +47,20 @@ function centerCardContainer() {
   console.log(centerY);
 
   // Center the cardContainer
-  cardContainer.style.position = "absolute";
+  // cardContainer.style.position = "absolute";
   cardContainer.style.left = centerX + "px";
   cardContainer.style.top = centerY + "px";
-  cardContainer.style.transform = "translate(-50%, -50%)";
+
+  // cardContainer.style.transform-origin = "-" + centerX + "px -" + centerX + "px";
+  // cardContainer.style.transform = "translate(-50%, -50%)";
 
   // Optional: Adjust the size of cardContainer if necessary
   // cardContainer.style.width = ...;
   // cardContainer.style.height = ...;
 }
 
-// // Call this function on initial load and window resize
-// centerCardContainer();
+// Call this function on initial load and window resize
+centerCardContainer();
 
 function findMatchingCard(x, y) {
   const topCard = getCardData(x, y - 1);
@@ -246,9 +265,6 @@ function reevaluateForUnknownCards() {
 }
 
 
-// Call this function on initial load and window resize
-centerCardContainer();
-
 // Initialize the first card (mapCard) and add click detection
 var mapCard = document.querySelector(".card");
 if (mapCard) {
@@ -277,62 +293,6 @@ zoomOutButton.addEventListener('click', panzoom.zoomOut);
 
 elem.parentElement.addEventListener("wheel", panzoom.zoomWithWheel);
 
-let cardData = [
-  { id: 1, top: "water", right: "land", bottom: "water", left: "land" },
-  { id: 2, top: "water", right: "land", bottom: "land", left: "land" },
-  { id: 3, top: "land", right: "land", bottom: "water", left: "land" },
-  { id: 4, top: "land", right: "land", bottom: "land", left: "land" },
-  { id: 5, top: "land", right: "water", bottom: "land", left: "land" },
-  { id: 6, top: "water", right: "water", bottom: "water", left: "water" },
-  { id: 7, top: "land", right: "water", bottom: "water", left: "water" },
-  { id: 8, top: "water", right: "land", bottom: "land", left: "water" },
-  { id: 9, top: "land", right: "land", bottom: "land", left: "land" },
-  { id: 10, top: "water", right: "water", bottom: "water", left: "water" },
-  { id: 11, top: "land", right: "water", bottom: "land", left: "water" },
-  { id: 12, top: "water", right: "water", bottom: "water", left: "water" },
-  { id: 13, top: "land", right: "land", bottom: "land", left: "water" },
-  { id: 14, top: "land", right: "land", bottom: "land", left: "land" },
-  { id: 15, top: "water", right: "water", bottom: "water", left: "land" },
-  { id: 16, top: "water", right: "water", bottom: "water", left: "water" },
-  { id: 17, top: "land", right: "land", bottom: "land", left: "water" },
-  { id: 18, top: "land", right: "land", bottom: "land", left: "land" },
-  { id: 19, top: "water", right: "land", bottom: "land", left: "land" },
-  { id: 20, top: "land", right: "land", bottom: "land", left: "land" },
-  { id: 21, top: "water", right: "land", bottom: "land", left: "land" },
-  { id: 22, top: "land", right: "land", bottom: "land", left: "land" },
-  { id: 23, top: "land", right: "land", bottom: "land", left: "land" },
-  { id: 24, top: "water", right: "land", bottom: "land", left: "land" },
-  { id: 25, top: "water", right: "land", bottom: "water", left: "land" },
-  { id: 26, top: "land", right: "land", bottom: "land", left: "land" },
-  { id: 27, top: "land", right: "land", bottom: "water", left: "land" },
-  { id: 28, top: "land", right: "land", bottom: "land", left: "land" },
-  { id: 29, top: "land", right: "land", bottom: "land", left: "land" },
-  { id: 30, top: "land", right: "land", bottom: "land", left: "land" },
-  { id: 31, top: "land", right: "land", bottom: "land", left: "land" },
-  { id: 32, top: "land", right: "land", bottom: "land", left: "land" },
-  { id: 33, top: "land", right: "water", bottom: "land", left: "land" },
-  { id: 34, top: "water", right: "land", bottom: "land", left: "water" },
-  { id: 35, top: "land", right: "water", bottom: "land", left: "land" },
-  { id: 36, top: "water", right: "land", bottom: "land", left: "water" },
-  { id: 37, top: "land", right: "land", bottom: "land", left: "land" },
-  { id: 38, top: "land", right: "land", bottom: "water", left: "land" },
-  { id: 39, top: "land", right: "water", bottom: "water", left: "land" },
-  { id: 40, top: "land", right: "land", bottom: "land", left: "water" },
-  { id: 41, top: "land", right: "land", bottom: "land", left: "land" },
-  { id: 42, top: "land", right: "land", bottom: "land", left: "land" },
-  { id: 43, top: "land", right: "land", bottom: "land", left: "land" },
-  { id: 44, top: "land", right: "land", bottom: "land", left: "land" },
-  { id: 45, top: "land", right: "land", bottom: "water", left: "land" },
-  { id: 46, top: "land", right: "water", bottom: "water", left: "water" },
-  { id: 47, top: "water", right: "water", bottom: "water", left: "water" },
-  { id: 48, top: "water", right: "land", bottom: "land", left: "water" },
-  { id: 49, top: "land", right: "land", bottom: "land", left: "land" },
-  { id: 50, top: "land", right: "land", bottom: "land", left: "land" },
-  { id: 51, top: "land", right: "land", bottom: "water", left: "land" },
-  { id: 52, top: "land", right: "land", bottom: "land", left: "land" },
-  { id: 53, top: "land", right: "water", bottom: "water", left: "land" },
-  { id: 54, top: "water", right: "land", bottom: "land", left: "water" },
-];
 
 // Import random
 
