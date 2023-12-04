@@ -17,26 +17,28 @@ function addClickDetection(cardElement) {
   });
 }
 
-// function centerCardContainer() {
-//   var cardWrap = document.querySelector(".card-wrap");
-//   var cardContainer = document.getElementById("cardContainer");
+function centerCardContainer() {
+  var cardWrap = document.querySelector(".card-wrap");
+  var cardContainer = document.getElementById("cardContainer");
 
-//   // Calculate the center position
-//   var centerX = cardWrap.offsetWidth / 2 + cardWidth / 2;
-//   var centerY = cardWrap.offsetHeight / 2 - cardHeight / 2;
-//   console.log(centerX);
-//   console.log(centerY);
+  // Calculate the center position
+  var centerX = (cardWrap.offsetWidth / 2) + (cardWidth / 1.5);
+  var centerY = (cardWrap.offsetHeight / 2) - (cardHeight / 2);
+  console.log(cardWrap.offsetWidth);
+  console.log(cardWrap.offsetHeight);
+  console.log(centerX);
+  console.log(centerY);
 
-//   // Center the cardContainer
-//   cardContainer.style.position = "absolute";
-//   cardContainer.style.left = centerX + "px";
-//   cardContainer.style.top = centerY + "px";
-//   cardContainer.style.transform = "translate(-50%, -50%)";
+  // Center the cardContainer
+  cardContainer.style.position = "absolute";
+  cardContainer.style.left = centerX + "px";
+  cardContainer.style.top = centerY + "px";
+  cardContainer.style.transform = "translate(-50%, -50%)";
 
-//   // Optional: Adjust the size of cardContainer if necessary
-//   // cardContainer.style.width = ...;
-//   // cardContainer.style.height = ...;
-// }
+  // Optional: Adjust the size of cardContainer if necessary
+  // cardContainer.style.width = ...;
+  // cardContainer.style.height = ...;
+}
 
 // // Call this function on initial load and window resize
 // centerCardContainer();
@@ -243,6 +245,10 @@ function reevaluateForUnknownCards() {
   });
 }
 
+
+// Call this function on initial load and window resize
+centerCardContainer();
+
 // Initialize the first card (mapCard) and add click detection
 var mapCard = document.querySelector(".card");
 if (mapCard) {
@@ -256,10 +262,18 @@ const elem = document.getElementById("cardContainer");
 const panzoom = Panzoom(elem, {
   maxScale: 2,
   minScale: 0.5,
-  step: 0.1,
+  step: 0.2,
   canvas: true,
   animate: true,
 });
+
+// Get references to the buttons
+const zoomInButton = document.getElementById('zoomIn');
+const zoomOutButton = document.getElementById('zoomOut');
+
+// Attach event listeners
+zoomInButton.addEventListener('click', panzoom.zoomIn);
+zoomOutButton.addEventListener('click', panzoom.zoomOut);
 
 elem.parentElement.addEventListener("wheel", panzoom.zoomWithWheel);
 
@@ -319,3 +333,7 @@ let cardData = [
   { id: 53, top: "land", right: "water", bottom: "water", left: "land" },
   { id: 54, top: "water", right: "land", bottom: "land", left: "water" },
 ];
+
+// Import random
+
+// import { onCardHover, updateSidebar } from './random.js';
