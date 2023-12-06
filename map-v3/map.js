@@ -5,14 +5,15 @@ const cardHeight = 400; // height of a card in pixels
 const cardSpacing = -2; // space between cards in pixels
 
 let cardData = []; // Declare cardData in the global scope
+let cardDetails = {};
 
 async function loadCardData() {
-  const response = await fetch('./cards.json');
+  const response = await fetch("./cards.json");
   cardData = await response.json(); // Assign the fetched data to cardData
 }
 
 // Call loadCardData when the document is loaded
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener("DOMContentLoaded", () => {
   loadCardData().then(() => {
     // You can initialize other elements or functions that depend on cardData here
     // For example:
@@ -20,6 +21,24 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
+function centerCardContainer() {
+  var cardWrap = document.querySelector(".card-wrap");
+  var cardContainer = document.getElementById("initialCard");
+
+  // Calculate the center position
+  var centerX = cardWrap.offsetWidth / 2 - cardWidth / 2;
+  var centerY = cardWrap.offsetHeight / 2 - cardHeight / 2;
+  console.log(cardWrap.offsetWidth);
+  console.log(cardWrap.offsetHeight);
+  console.log(centerX);
+  console.log(centerY);
+
+  cardContainer.style.left = centerX + "px";
+  cardContainer.style.top = centerY + "px";
+}
+
+// Call this function on initial load and window resize
+centerCardContainer();
 
 function addClickDetection(cardElement) {
   cardElement.addEventListener("click", function () {
@@ -33,34 +52,6 @@ function addClickDetection(cardElement) {
     changeCardBackground.call(this);
   });
 }
-
-function centerCardContainer() {
-  var cardWrap = document.querySelector(".card-wrap");
-  var cardContainer = document.getElementById("cardContainer");
-
-  // Calculate the center position
-  var centerX = (cardWrap.offsetWidth / 2) + (cardWidth / 1.5);
-  var centerY = (cardWrap.offsetHeight / 2) - (cardHeight / 2);
-  console.log(cardWrap.offsetWidth);
-  console.log(cardWrap.offsetHeight);
-  console.log(centerX);
-  console.log(centerY);
-
-  // Center the cardContainer
-  // cardContainer.style.position = "absolute";
-  cardContainer.style.left = centerX + "px";
-  cardContainer.style.top = centerY + "px";
-
-  // cardContainer.style.transform-origin = "-" + centerX + "px -" + centerX + "px";
-  // cardContainer.style.transform = "translate(-50%, -50%)";
-
-  // Optional: Adjust the size of cardContainer if necessary
-  // cardContainer.style.width = ...;
-  // cardContainer.style.height = ...;
-}
-
-// Call this function on initial load and window resize
-centerCardContainer();
 
 function findMatchingCard(x, y) {
   const topCard = getCardData(x, y - 1);
@@ -116,22 +107,18 @@ function changeCardBackground() {
   if (matchingCard) {
     var imageUrl = "../map-v3/images/map_" + matchingCard.id + ".jpg";
     this.style.backgroundImage = 'url("' + imageUrl + '")';
-    this.classList.remove("unknown-card"); // Remove unknown class
+    this.classList.remove("unknown-card", "panzoom-exclude");
     this.setAttribute("data-card-id", matchingCard.id);
 
-    // Remove 'unknown-card' and 'panzoom-exclude' classes
-    this.classList.remove("unknown-card", "panzoom-exclude");
-
     // Check and place new cards in adjacent positions
-    placeNewCardIfEmpty(x, y - 1); // Top
-    placeNewCardIfEmpty(x + 1, y); // Right
-    placeNewCardIfEmpty(x, y + 1); // Bottom
-    placeNewCardIfEmpty(x - 1, y); // Left
+    placeNewCardIfEmpty(x, y - 1);
+    placeNewCardIfEmpty(x + 1, y);
+    placeNewCardIfEmpty(x, y + 1);
+    placeNewCardIfEmpty(x - 1, y);
     usedCardIds.push(matchingCard.id);
 
     // Create a remove button and add it to the card
     var removeButton = document.createElement("button");
-    // removeButton.innerHTML = "Remove";
     removeButton.classList.add("remove-button", "hidden");
     removeButton.onclick = function () {
       removeCard(x, y);
@@ -140,9 +127,66 @@ function changeCardBackground() {
 
     applyRandomStyle(this); // Apply random style to the new card
 
+    // Always generate new details when a card is turned over
+    var cardId = parseInt(this.getAttribute("data-card-id"));
+    var card = cardData.find((card) => card.id === cardId);
+
+    if (card && card.details) {
+      cardDetails[cardId] = {
+        names: getRandomElement(card.details.names),
+        descriptions: getRandomElement(card.details.descriptions),
+        things: getRandomElement(card.details.things),
+      };
+    }
+
     // Remove invalid 'unknown' cards in adjacent positions
     removeInvalidUnknownCards(x, y);
   }
+
+  addHoverListener(this);
+}
+
+// Function to get a random element from an array
+function getRandomElement(arr) {
+  if (arr && arr.length > 0) {
+    const randomIndex = Math.floor(Math.random() * arr.length);
+    return arr[randomIndex];
+  }
+  return null;
+}
+
+// Add hover event listener to show details in the sidebar
+function addHoverListener(cardElement) {
+  console.log("Adding hover listener to card"); // Check if the function is called
+  cardElement.addEventListener("mouseover", function () {
+    console.log("Hover event triggered"); // Check if hover event is triggered
+    if (!this.classList.contains("unknown-card")) {
+      var cardId = parseInt(this.getAttribute("data-card-id"));
+      console.log("Hovered card ID: ", cardId); // Check the ID of the hovered card
+
+      if (cardDetails[cardId]) {
+        console.log("Details for hovered card: ", cardDetails[cardId]); // Check the details for the hovered card
+        updateSidebar(cardDetails[cardId]);
+      } else {
+        console.log("No details found for card ID: ", cardId);
+      }
+    } else {
+      console.log("Hovered on an unknown card, no action taken");
+    }
+  });
+}
+
+// Function to update specific elements with card details
+function updateSidebar(details) {
+  // Select each element by its ID
+  var cardName = document.getElementById("cardName");
+  var cardDescription = document.getElementById("cardDescription");
+  var cardThing = document.getElementById("cardThing");
+
+  // Update the content of each element
+  cardName.textContent = details.names; // For text-only content
+  cardDescription.innerHTML = details.descriptions; // Use innerHTML if you expect HTML content
+  cardThing.innerHTML = details.things; // Use innerHTML if you expect HTML content
 }
 
 function removeCard(x, y) {
@@ -157,6 +201,9 @@ function removeCard(x, y) {
 
     // Remove the card element
     cardElem.remove();
+
+    // Forget the card's details
+    delete cardDetails[cardId];
 
     // Create a new 'unknown' card in the removed card's position
     createNewUnknownCard(x, y);
@@ -179,8 +226,8 @@ function createNewUnknownCard(x, y) {
     var newCard = document.createElement("div");
     newCard.classList.add("card", "unknown-card", "panzoom-exclude");
     newCard.style.position = "absolute";
-    newCard.style.left = x * (cardWidth + cardSpacing) + "px";
-    newCard.style.top = y * (cardHeight + cardSpacing) + "px";
+    newCard.style.left = calculateLeftPosition(x) + "px"; // Use calculateLeftPosition
+    newCard.style.top = calculateTopPosition(y) + "px"; // Use calculateTopPosition
     newCard.style.width = cardWidth + "px";
     newCard.style.height = cardHeight + "px";
     newCard.setAttribute("data-position", `${x},${y}`);
@@ -233,12 +280,10 @@ function placeNewCardIfEmpty(x, y) {
 
 function createNewCard(x, y) {
   var newCard = document.createElement("div");
-  newCard.classList.add("card");
-  newCard.classList.add("unknown-card");
-  newCard.classList.add("panzoom-exclude");
+  newCard.classList.add("card", "unknown-card", "panzoom-exclude");
   newCard.style.position = "absolute";
-  newCard.style.left = x * (cardWidth + cardSpacing) + "px";
-  newCard.style.top = y * (cardHeight + cardSpacing) + "px";
+  newCard.style.left = calculateLeftPosition(x) + "px";
+  newCard.style.top = calculateTopPosition(y) + "px";
   newCard.style.width = cardWidth + "px";
   newCard.style.height = cardHeight + "px";
   newCard.setAttribute("data-position", `${x},${y}`);
@@ -247,6 +292,17 @@ function createNewCard(x, y) {
   document.getElementById("cardContainer").appendChild(newCard);
 }
 
+function calculateLeftPosition(x) {
+  var initialCard = document.getElementById("initialCard");
+  var initialLeft = parseInt(initialCard.style.left, 10);
+  return initialLeft + x * (cardWidth + cardSpacing);
+}
+
+function calculateTopPosition(y) {
+  var initialCard = document.getElementById("initialCard");
+  var initialTop = parseInt(initialCard.style.top, 10);
+  return initialTop + y * (cardHeight + cardSpacing);
+}
 function reevaluateForUnknownCards() {
   const allCards = document.querySelectorAll(".card:not(.unknown-card)");
   allCards.forEach((cardElem) => {
@@ -264,12 +320,12 @@ function reevaluateForUnknownCards() {
   });
 }
 
-
 // Initialize the first card (mapCard) and add click detection
 var mapCard = document.querySelector(".card");
 if (mapCard) {
   mapCard.setAttribute("data-position", "0,0");
   addClickDetection(mapCard);
+  addHoverListener(mapCard); // Add hover listener to the initial card
 }
 
 // Panzoom
@@ -284,15 +340,14 @@ const panzoom = Panzoom(elem, {
 });
 
 // Get references to the buttons
-const zoomInButton = document.getElementById('zoomIn');
-const zoomOutButton = document.getElementById('zoomOut');
+const zoomInButton = document.getElementById("zoomIn");
+const zoomOutButton = document.getElementById("zoomOut");
 
 // Attach event listeners
-zoomInButton.addEventListener('click', panzoom.zoomIn);
-zoomOutButton.addEventListener('click', panzoom.zoomOut);
+zoomInButton.addEventListener("click", panzoom.zoomIn);
+zoomOutButton.addEventListener("click", panzoom.zoomOut);
 
 elem.parentElement.addEventListener("wheel", panzoom.zoomWithWheel);
-
 
 // Import random
 
