@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rrry.me – map party</title>
+    <script src="https://unpkg.com/@panzoom/panzoom@4.5.1/dist/panzoom.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="page-wrap">
+      <nav class="sidebar">
+        <div class="card-details">
+          <h2 id="cardName"></h2>
+          <p id="cardDescription"></p>
+          <p id="cardThing"></p>
+        </div>
+        <button id="shareButton">Share this Map</button>
+        <div class="zoom-controls">
+          <button id="zoomIn">Zoom in</button>
+          <button id="zoomOut">Zoom out</button>
+        </div>
+      </nav>
+      <div class="card-wrap">
+        <div id="cardContainer">
+          <div
+            id="initialCard"
+            class="card initial-card panzoom-exclude unknown-card visible"
+            data-position="0,0"
+          ></div>
+        </div>
+      </div>
+    </div>
+    <script src="map.js" type="module"></script>
+    <!-- <script src="random.js" type="module"></script> -->
+  </body>
+</html>

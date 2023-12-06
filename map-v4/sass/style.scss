@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Forum&family=Space+Grotesk:wght@400;600&display=swap");
+
+$tea-green: #c5ebc3;
+$avocado: #618b25;
+$eggplant: #54414e;
+$sienna: #e07a5f;
+$purple: #8a4fff;
+
+$tea-green-dark: scale-color($tea-green, $lightness: -20%);
+
+$font-primary: "Space Grotesk";
+$font-secondary: "Forum";
+
+html,
+body {
+  font-family: $font-primary;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-secondary;
+}
+
+#cardContainer {
+  position: absolute;
+  // height: 100%;
+  // width: 100%;
+}
+
+.page-wrap {
+  display: flex;
+  height: 100%;
+}
+
+.sidebar {
+  width: 16rem;
+  background-color: $eggplant;
+  padding: 2rem;
+  z-index: 3;
+  color: $tea-green;
+
+  display: flex;
+  flex-direction: column;
+  .card-details {
+    flex-grow: 1;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  button {
+    background: none;
+    border-color: $tea-green;
+    border-width: 2px;
+    font-family: $font-primary;
+    padding: 0.5rem 0.75rem;
+    color: $tea-green;
+    border-style: solid;
+    border-radius: 1rem;
+    cursor: pointer;
+    &:hover {
+      background-color: $tea-green;
+      color: $eggplant;
+    }
+  }
+
+}
+
+.card-wrap {
+  flex-grow: 1;
+  background-color: $tea-green;
+  overflow: hidden;
+}
+
+.card {
+  width: 200px; /* Width of the card */
+  height: 400px; /* Height of the card */
+  background-image: url("../map-v3/images/back.jpg"); /* Card background image */
+  background-size: cover;
+  border-radius: 0.75rem;
+  position: relative;
+  background-size: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+  &.unknown-card { 
+    outline: 3px $tea-green-dark dashed;
+    outline-offset: -8px;;
+    background-image: none;
+    // background-color: lightsalmon;
+    box-shadow: none;
+    z-index: 1;
+    border-radius: 1rem;
+  }
+  &.panzoom-exclude {
+    cursor: pointer;
+  }
+  .remove-button {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+    border: none;
+    background-color: white;
+    background-image: url(../map-v3/icons/close.svg);
+    border-radius: 1rem;
+    &.hidden {
+      display: none;
+    }
+  }
+  &:hover .remove-button {
+    display: block; /* or inline-block, depending on your layout */
+  }
+}
