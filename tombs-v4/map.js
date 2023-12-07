@@ -1,8 +1,8 @@
 let usedCardIds = []; // To keep track of used card IDs
 let currentHoveredCardId = null;
 
-const cardWidth = 300; // width of a card in pixels
-const cardHeight = 600; // height of a card in pixels
+const cardWidth = 400; // width of a card in pixels
+const cardHeight = 400; // height of a card in pixels
 const cardSpacing = -2; // space between cards in pixels
 
 let cardData = []; // Declare cardData in the global scope
@@ -129,7 +129,7 @@ function changeCardBackground() {
   // Find a matching card based on adjacent cards
   var matchingCard = findMatchingCard(x, y);
   if (matchingCard) {
-    var imageUrl = "./images/map_" + matchingCard.id + ".jpg";
+    var imageUrl = "./images/tombs_" + matchingCard.id + ".jpg";
     this.style.backgroundImage = 'url("' + imageUrl + '")';
     this.classList.remove("unknown-card", "panzoom-exclude");
     this.setAttribute("data-card-id", matchingCard.id);
@@ -557,7 +557,7 @@ function placeCardAt(x, y, cardId, detailIndices) {
   card.setAttribute("data-card-id", cardId);
 
   // Set the card's background image
-  var imageUrl = `./images/map_${cardId}.jpg`;
+  var imageUrl = `./images/tombs_${cardId}.jpg`;
   card.style.backgroundImage = `url("${imageUrl}")`;
 
   console.log("Placing card at", x, y, "with details", detailIndices); // Debug log

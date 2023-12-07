@@ -9,23 +9,23 @@
       "names": [
         "The Waxy Timber of Candlewick Run",
         "The Staked Serenity of Waxenwood Bend",
-        "Taper's Twist by the Paled Oak",
-        "Wickstream's Wandering Whitebark",
+        "Taper’s Twist by the Paled Oak",
+        "Wickstream’s Wandering Whitebark",
         "The Candlelit Canal of Whisperwood",
         "The Tallow Tree Trail along Mystic Meander"
       ],
       "descriptions": [
         "The white bark of the tree gleams like a lighthouse for lost spirits, especially when the moon is cheeky enough to peek through the clouds.",
-        "Candles flicker around the tree, their flames gossiping in hushed, smoky whispers that hint at ancient secrets or last night's dinner.",
+        "Candles flicker around the tree, their flames gossiping in hushed, smoky whispers that hint at ancient secrets or last night’s dinner.",
         "Stakes encircle the tree like an audience of wooden soldiers, silently judging every twig that dares to snap underfoot.",
-        "Water in the canal tiptoes past, trying its best not to wake the sleeping mud with its incessant gossip of where it's been.",
-        "Beneath the tree, shadows play hide and seek, ever so often forgetting what they were doing and just enjoying the moonlight's embrace.",
+        "Water in the canal tiptoes past, trying its best not to wake the sleeping mud with its incessant gossip of where it’s been.",
+        "Beneath the tree, shadows play hide and seek, ever so often forgetting what they were doing and just enjoying the moonlight’s embrace.",
         "An adventurous breeze shimmies down the canal, rustling leaves into a dance and twirling the vague scent of adventure your way."
       ],
       "things": [
         "You come across a lopsided, grinning scarecrow wearing a dapper hat, inexplicably standing guard over the narrow canal.",
         "You stumble upon a collection of wax-dribbled candles encircling the old white tree, each one mysteriously relighting at sundown.",
-        "You find a set of stakes in the ground, each with a bizarre, comical face painted on and a tiny flag that's inscribed with humorous limericks about swamp life.",
+        "You find a set of stakes in the ground, each with a bizarre, comical face painted on and a tiny flag that’s inscribed with humorous limericks about swamp life.",
         "You unearth a soggy, leather-bound journal teeming with doodles of ducks wearing boots and the ramblings of a duck philosopher.",
         "You spot a series of small, quirky boats shaped like oversized clogs bobbing along the canal, each with a name plate that reads like a bad pun."
       ]
@@ -41,16 +41,16 @@
       "names": [
         "The Leaning Lighthouse of Luminescent Shores",
         "Blinking Barnacle Bay",
-        "Gassy Glade's Glimmering Gateway",
-        "Tipsy Tower's Transdimensional Tavern",
-        "Wobbleton Wharf's Wondrous Warp"
+        "Gassy Glade’s Glimmering Gateway",
+        "Tipsy Tower’s Transdimensional Tavern",
+        "Wobbleton Wharf’s Wondrous Warp"
       ],
       "descriptions": [
-        "The tower leans so much, you're convinced it's sharing a secret with the sea.",
+        "The tower leans so much, you’re convinced it’s sharing a secret with the sea.",
         "A soft glow spills from the windows, less like light and more like laughter.",
         "At high tide, the waves serenade the base of the tower with whispered ocean ballads.",
-        "The buildings cluster together like they're plotting a grand, otherworldly scheme.",
-        "Every now and then, a puff of glowing gas escapes, with a satisfied 'ahhh' like a burping teapot.",
+        "The buildings cluster together like they’re plotting a grand, otherworldly scheme.",
+        "Every now and then, a puff of glowing gas escapes, with a satisfied ‘ahhh’ like a burping teapot.",
         "The air dances with an electricity that tickles the fillings in your teeth."
       ],
       "things": [
@@ -72,25 +72,25 @@
     "details": {
       "names": [
         "The Wobbly Watchtower of Pebblehaven",
-        "Skipper's Stonepath to the Sullen Sea",
-        "The Gazing Gnome's Garret",
+        "Skipper’s Stonepath to the Sullen Sea",
+        "The Gazing Gnome’s Garret",
         "Harbor Henge Lookout",
-        "The Plankwalk to Stonemount's Mouth",
-        "Rocky Bay's Wooden Foot"
+        "The Plankwalk to Stonemount’s Mouth",
+        "Rocky Bay’s Wooden Foot"
       ],
       "descriptions": [
         "The mountain yawns wide, its stone lips paved for the convenience of travelers with weary feet and questionable maps.",
         "A squat tower stands, its one eye squinting across the sea, forever spying on the horizons for ships or perhaps just a good sunset.",
-        "The wooden wharf creaks like an old storyteller settling in to recount tales of the foam and brine to anyone who'll lend an ear.",
-        "Pebbles gossip beneath your boots as you traverse the path, sharing rumors of the mountain's belly and the treasures it's swallowed.",
+        "The wooden wharf creaks like an old storyteller settling in to recount tales of the foam and brine to anyone who’ll lend an ear.",
+        "Pebbles gossip beneath your boots as you traverse the path, sharing rumors of the mountain’s belly and the treasures it’s swallowed.",
         "Seagulls orchestrate a cacophony, conducting the symphony of the salty breeze with wings spread like maestros of mischief."
       ],
       "things": [
         "You find a petrified knot of wood that, when rubbed, emits a salty sea shanty.",
         "You stumble upon a telescope that, instead of showing distant objects, projects images of silly sea creatures wearing pirate hats.",
         "You come across a series of unusually polite crabs, each carrying a tiny banner with welcome messages scribbled in seashell fragments.",
-        "You unearth an old mariner's compass that always points to the nearest place where a party is being held, not north.",
-        "You spot a collection of stone-carved messages by previous visitors, the latest of which appears to be a high score table for 'Best Skipped Stone' with an open challenge.",
+        "You unearth an old mariner’s compass that always points to the nearest place where a party is being held, not north.",
+        "You spot a collection of stone-carved messages by previous visitors, the latest of which appears to be a high score table for ‘Best Skipped Stone’ with an open challenge.",
         "You discover a small, enchanted dinghy that eagerly waits to give tours of the harbour but insists on being told dramatic tales of adventure as payment."
       ]
     }
@@ -106,25 +106,30 @@
         "Squishy Summit Fens",
         "Bogbottom Heights",
         "The Soggy Slope Conundrum",
-        "Mount Marshmellow's Mistake",
+        "Mount Marshmellow’s Mistake",
         "The Quagmire Quintuplets",
-        "Fizzlewhit's Sinking Summits Factory"
+        "Fizzlewhit’s Sinking Summits Factory"
       ],
       "descriptions": [
         "The hillocks pucker and slurp as if taking a mud bath in the swamp, unconcerned with the concept of dignity.",
         "Fumes from the bog periodically form a mischievous face, winking at travelers before the wind scatters its form.",
         "A solitary chimney on the odd factory coughs out plumes of colorful smoke, apologizing with each puff.",
         "Your footsteps squelch on the path, which giggles at the ticklish sensation.",
-        "Occasional belches from the marsh's depths suggest it had something disagreeable for lunch.",
+        "Occasional belches from the marsh’s depths suggest it had something disagreeable for lunch.",
         "Industrial clangs and wheezes sing a duet with the croaking swamp chorus, performing an unintentional symphony."
       ],
       "things": [
-        "You stumble upon a pair of glasses that constantly fog up but claim to offer 'Foreswamp Sight.' The catch is, everything you see looks swampy.",
-        "You find a marshmallow roasting stick that's eternally warm, perfect for cooking in damp environs, branded as 'The Swamptastic S'morerizer!'",
-        "You come across a soggy, leather-bound book titled '50 Hues of Green: An Explorer's Guide to Swamp Camouflage.' It's surprisingly colorful.",
-        "You discover a set of false teeth with tiny webbed feet; they claim to be the 'Swamp Chompers,' able to walk across lily pads to nibble at flies.",
-        "You find a quill that writes with an ink that looks like swamp water. The label reads 'Mystical Murk Marker: For when your words need to be deep and unclear.'",
-        "You come across a little tin box that emits the smell of fresh laundry when opened, labeled 'Swamp Breeze in a Can – Now with 50% less swamp!'"
+        "You find a marshmallow roasting stick that’s eternally warm, perfect for cooking in damp environs, branded as ‘The Swamptastic S’morerizer!’",
+        "You come across a soggy, leather-bound book titled ‘50 Hues of Green: An Explorer’s Guide to Swamp Camouflage.’ It’s surprisingly colorful.",
+        "You discover a set of false teeth with tiny webbed feet; they claim to be the ‘Swamp Chompers,’ able to walk across lily pads to nibble at flies.",
+        "You find a quill that writes with an ink that looks like swamp water. The label reads ‘Mystical Murk Marker: For when your words need to be deep and unclear.’",
+        "You come across a little tin box that emits the smell of fresh laundry when opened, labeled ‘Swamp Breeze in a Can – Now with 50% less swamp!’",
+        "You come across a pair of spectacles with lenses made from thinly sliced mushroom caps, granting you peculiar, if not slightly fungal, vision.",
+        "You find a rusty sword with a hilt shaped like a seahorse; it hums softly when submerged in saltwater.",
+        "You stumble upon a waterproof scroll that, when read aloud, seems to tell the tide when to come in and when to ebb away.",
+        "You discover an old fishing net that vibrates when near the legendary Golden Gill Gillifish, believed to reside among the mushroom islands.",
+        "You unearth a bottle of ‘Gull’s Guano Ale’, a fizzy beverage favored by the village’s bravest — or most foolhardy — inhabitants.",
+        "You spot a diminutive, slightly damp book titled ‘Anchovy and the Art of Mushroom Island Topiary’, which surprisingly smells of neither fish nor fungus."
       ]
     }
   },
@@ -137,40 +142,35 @@
     "details": {
       "names": [
         "The Spore Shore",
-        "Fungus Isle Hamlet",
         "Mycelia Marina",
         "Toadstool Archipelago",
         "Shroomhaven",
         "Gillside Grottos",
-        "The Sporadic Isles of Cap 'n' Stem",
+        "The Sporadic Isles of Cap ‘n’ Stem",
         "Mushroom Bay Hamlet",
         "Shroomshore Village",
         "The Fungal Archipelago",
-        "Fisherman's Fungharbor",
         "The Mycelium Marina"
       ],
       "descriptions": [
         "Where the sand meets the sea, seashells whistle with gossiping winds.",
-        "The waves nudge the shore as if reminding it of an inside joke.",
-        "Islands peppered with giant mushrooms, their caps like homes for whimsical fairies or shady deals.",
-        "Village streets are a chorus of clucking chickens and the rhythmic hammering of the local blacksmith's bad jokes.",
-        "The tidal rock pools host philosophical starfish debates, usually about the tides or the meaning of 'wet'.",
-        "From afar, the mushrooms appear to bob on the water, like nature's own quirky fleet of ships.",
-        "The waves gently tease the shore, interrupted occasionally as a giant mushroom cap bobbles on the water's surface like a peculiar boat.",
+        "Village streets are a chorus of clucking chickens and the rhythmic hammering of the local blacksmith’s bad jokes.",
+        "The tidal rock pools host philosophical starfish debates, usually about the tides or the meaning of ‘wet’.",
+        "From afar, the mushrooms appear to bob on the water, like nature’s own quirky fleet of ships.",
+        "The waves gently tease the shore, interrupted occasionally as a giant mushroom cap bobbles on the water’s surface like a peculiar boat.",
         "Seagulls squawk overhead, eyeing the fish that flit about the mushroom gills with a mix of hunger and confusion.",
         "In the village, laughter mingles with the salty air as children play hide and seek under the shade of bulbous fungi.",
-        "A local, with a mischievous glint in their eye, offers tours on their 'spore-driven' canoe to navigate the mycelial archipelago.",
+        "A local, with a mischievous glint in their eye, offers tours on their ‘spore-driven’ canoe to navigate the mycelial archipelago.",
         "Beneath the docks, luminescent spores undulate with the tide, casting an ethereal glow on the faces of evening fishers.",
-        "The smell of fried mushrooms and seaweed wafts from a cozy tavern where tales of the 'Great Spore Storm' are shared over pints of ale."
+        "The smell of fried mushrooms and seaweed wafts from a cozy tavern where tales of the ‘Great Spore Storm’ are shared over pints of ale."
       ],
       "things": [
         "A pair of rubbery mushroom-cap shoes, slightly soggy but surprisingly comfortable",
-        "A bottle of 'Spore Ale,' brewed by the local myconids with a label that warns of potential side effects, including but not limited to 'excessive giggling'",
-        "A map leading to 'The Great Shroom,' a legendary giant fungus that's rumored to grant insights when hugged—drawn on a napkin with what looks suspiciously like soy sauce",
+        "A map leading to ‘The Great Shroom,’ a legendary giant fungus that’s rumored to grant insights when hugged—drawn on a napkin with what looks suspiciously like soy sauce",
         "A barnacle-encrusted telescope that occasionally whispers nautical directions in a salty accent when peered through",
         "A half-knitted scarf made from seaweed yarn, abandoned by a merfolk with a short attention span",
-        "A jar of 'Instant Island,' just add water and wait—a boon for the impatient castaway, with cute little palm tree and all",
-        "You find a conspicuously soggy pair of boots, each one housing a small, irritable crab that insists they're very late for something important.",
+        "A jar of ‘Instant Island,’ just add water and wait—a boon for the impatient castaway, with cute little palm tree and all",
+        "You find a conspicuously soggy pair of boots, each one housing a small, irritable crab that insists they’re very late for something important.",
         "You stumble upon a collection of seaglass bottles, each containing a poorly drawn map to another bottle, creating a seemingly endless treasure hunt.",
         "You spot a set of giant mushroom caps being used as parasols by a group of fashionable shrimp that are hosting an underwater tea party.",
         "You discover a knobby old walking stick that insists on pointing out interesting sea creatures and tells terribly punny jokes.",
@@ -193,20 +193,20 @@
         "The Peekaboo Boulder of Window Isle"
       ],
       "descriptions": [
-        "The lone white tree whispers secrets in the breeze, dropping silvery leaves that skip across the water's surface.",
+        "The lone white tree whispers secrets in the breeze, dropping silvery leaves that skip across the water’s surface.",
         "A squat and rock-like cottage, with just one gleaming eye, peers curiously at travelers from its island perch.",
         "Leaf-bound boats lazily drift between the isles, propelled by gossiping currents and tales of tides.",
-        "The boulder cottage's smoky chimney coughs out cheerful puffs, as if chuckling at its own inner warmth.",
-        "Fish seem to wink at passerby, darting between the roots of the white tree's mirror reflection.",
-        "The window atop the stone dwelling winks with the day's light, hiding its interior mysteries behind a sunlit smirk."
+        "The boulder cottage’s smoky chimney coughs out cheerful puffs, as if chuckling at its own inner warmth.",
+        "Fish seem to wink at passerby, darting between the roots of the white tree’s mirror reflection.",
+        "The window atop the stone dwelling winks with the day’s light, hiding its interior mysteries behind a sunlit smirk."
       ],
       "things": [
         "You find a pair of mismatched socks hanging from the branches of the white tree, seemingly waving at you with each breeze.",
-        "You stumble upon a series of oddly rhythmic tapping noises coming from the boulder-cottage, which upon closer inspection, is actually a rock golem's snoring.",
+        "You stumble upon a series of oddly rhythmic tapping noises coming from the boulder-cottage, which upon closer inspection, is actually a rock golem’s snoring.",
         "You come across a self-writing quill that, when picked up, starts scribbling what appear to be terribly rhymed limericks about the surrounding islands.",
-        "You discover a tiny door at the base of the boulder-like cottage, only to realize it's the entrance to a minuscule tavern run by enterprising beetles.",
-        "You find a message in a bottle half-buried in the sand; inside is a treasure map that leads you in a very tight circle back to where you started, with 'Surprise!' scrawled at the end.",
-        "You stumble upon a cheerful crab hosting a 'shell exchange' market, offering you an assortment of colorful homes for your adventuring gear."
+        "You discover a tiny door at the base of the boulder-like cottage, only to realize it’s the entrance to a minuscule tavern run by enterprising beetles.",
+        "You find a message in a bottle half-buried in the sand; inside is a treasure map that leads you in a very tight circle back to where you started, with ‘Surprise!’ scrawled at the end.",
+        "You stumble upon a cheerful crab hosting a ‘shell exchange’ market, offering you an assortment of colorful homes for your adventuring gear."
       ]
     }
   },
@@ -218,27 +218,27 @@
     "left": "water",
     "details": {
       "names": [
-        "Brightbeacon's Lonely Tower",
-        "The Lantern of Lament's Shore",
+        "Brightbeacon’s Lonely Tower",
+        "The Lantern of Lament’s Shore",
         "Glimmerguard Cottage",
         "Seaspite Sentinel",
         "Winklight Watch"
       ],
       "descriptions": [
         "The lighthouse beam performs a lazy pirouette, briefly highlighting seagull graffiti on nearby rocks.",
-        "A melancholy foghorn competes with the local seals' choir, the former almost always off-key.",
-        "The cabin's chimney puffs out smoke rings, rumors say it's trying to communicate with the clouds.",
+        "A melancholy foghorn competes with the local seals’ choir, the former almost always off-key.",
+        "The cabin’s chimney puffs out smoke rings, rumors say it’s trying to communicate with the clouds.",
         "An overly optimistic ship in a bottle sits on the lighthouse window, forever awaiting high tide.",
-        "Seashells by the cabin door clack a greeting, or a warning, or perhaps they're just gossiping about the tides.",
+        "Seashells by the cabin door clack a greeting, or a warning, or perhaps they’re just gossiping about the tides.",
         "The door hinge whines mournfully, practicing for its eventual audition as a haunted house prop."
       ],
       "things": [
         "You find a rusty weathervane shaped like a cheerful octopus, its tentacles pointing haphazardly towards possible storms.",
-        "You stumble upon a doormat outside the cabin that reads 'Welcome, watch out for the gulls!' It's covered in a suspiciously lighthearted splatter pattern.",
+        "You stumble upon a doormat outside the cabin that reads ‘Welcome, watch out for the gulls!’ It’s covered in a suspiciously lighthearted splatter pattern.",
         "You discover a set of wind chimes made from variously sized driftwood pieces, each meticulously carved with comically stern fish faces.",
-        "You come across an oddly aerodynamic skipping stone beside the lighthouse, engraved with instructions: 'For a proper throw, please summon the east wind with a polite cough.'",
+        "You come across an oddly aerodynamic skipping stone beside the lighthouse, engraved with instructions: ‘For a proper throw, please summon the east wind with a polite cough.’",
         "You notice a journal on the windowsill of the cabin, its pages filled with bad poetry about the lonely life of lighthouse keeping and even lonelier attempts at sea shanties.",
-        "You find a pair of binoculars with multiple extra lenses attached with rubber bands, seemingly for spotting different kinds of sea monsters, labeled from 'Likely Imaginary' to 'Definitely Peckish.'"
+        "You find a pair of binoculars with multiple extra lenses attached with rubber bands, seemingly for spotting different kinds of sea monsters, labeled from ‘Likely Imaginary’ to ‘Definitely Peckish.’"
       ]
     }
   },
@@ -250,25 +250,25 @@
     "left": "water",
     "details": {
       "names": [
-        "The Tipsy Shack of Solitude's Sandbar",
+        "The Tipsy Shack of Solitude’s Sandbar",
         "The Quizzical Ruins of Squatmore Square",
         "The Meandering Trail of Whimsy Walk",
         "The Scarlet Shack atop Hemoglobin Hill"
       ],
       "descriptions": [
-        "The shack's door bangs in the ocean breeze, grumbling like an old man refusing to retire.",
+        "The shack’s door bangs in the ocean breeze, grumbling like an old man refusing to retire.",
         "Rumors suggest the sinking ruin houses the laziest ghost, too lackadaisical to haunt properly.",
         "An audacious squirrel has claimed the winding path as its nut-hoarding empire, challenging passersby with a squeaky roar.",
         "As the evening light hits, the crimson hill blushes, turning from red to a bashful shade of purple.",
-        "Despite its forlorn state, the shack's rickety mailbox still optimistically awaits letters, or at least postcards, from afar.",
-        "Every so often, the shack's rooftop emits a snoring sound, as if it's taking a nap between the bouts of salted wind."
+        "Despite its forlorn state, the shack’s rickety mailbox still optimistically awaits letters, or at least postcards, from afar.",
+        "Every so often, the shack’s rooftop emits a snoring sound, as if it’s taking a nap between the bouts of salted wind."
       ],
       "things": [
-        "You find a tiny brass telescope, enchanted to sometimes show places that only exist in dreams, rather than what's actually in front of you.",
+        "You find a tiny brass telescope, enchanted to sometimes show places that only exist in dreams, rather than what’s actually in front of you.",
         "You stumble upon a collection of mismatched door knobs, each pulsing with a faint magical aura and humming a unique tune when touched.",
         "You come across a whimsical wind-chime made of polished seashells and ancient coins, which emits laughter instead of clinking sounds when the breeze catches it.",
-        "You encounter a pair of squabbling seagulls, one wearing a miniature pirate hat, arguing over a map that leads to the 'Legendary Lost Crumb of the Leviathan's Crouton'.",
-        "You unearth an old, leather-bound diary with entries that rewrite themselves every full moon to depict wildly exaggerated versions of the previous month's events.",
+        "You encounter a pair of squabbling seagulls, one wearing a miniature pirate hat, arguing over a map that leads to the ‘Legendary Lost Crumb of the Leviathan’s Crouton’.",
+        "You unearth an old, leather-bound diary with entries that rewrite themselves every full moon to depict wildly exaggerated versions of the previous month’s events.",
         "You discover a jar of iridescent jam that bestows temporary, trivial prophecies to those who taste it, such as the imminent finding of a lost sock or the accidental dropping of a spoon."
       ]
     }
@@ -280,9 +280,30 @@
     "bottom": "land",
     "left": "land",
     "details": {
-      "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
-      "things": ["some old bones", "a funny knife", "a tiny mouse"]
+      "names": [
+        "The Hush Bog Cemetery",
+        "The Chapel of Whispering Frogs",
+        "Pondside’s Repose",
+        "The Soggy Sanctuary",
+        "Murmuring Moss Mausoleum",
+        "The Serene Slough Sacristy"
+      ],
+      "descriptions": [
+        "The gravestones lean haphazardly like a crowd of drunks at the end of a long night.",
+        "A chorus of frogs croak cryptic lullabies amidst the backdrop of silent headstones.",
+        "You notice a chapel with a wonky spire that looks like it’s trying to escape the graveyard below.",
+        "‘Plop, plop, squelch’ goes your every step, as the swamp attempts to slurp off your boots.",
+        "An owl hoots indignantly from a nearby tree, perturbed by the laughter of the mischievous will-o’-the-wisps.",
+        "Each pond reflects the moon with a smug grin, unaware that its surface is marred by a film of swampy algae."
+      ],
+      "things": [
+        "You come across a gravestone that reads ‘Here lies Jerry, who died from nothing serious’",
+        "You find a pair of spectacles with one lens that magnifies to comical proportions, the other lens isn’t glass but a spider’s web",
+        "You stumble upon a half-sunken chapel with a sign saying ‘Swampside Sermons: Better Wet Than Never’",
+        "You uncover an ornate shovel handle, upon closer inspection, it’s a wizard’s wand in disguise with a penchant for digging up ‘lost’ treasures",
+        "You spot a series of ponds that, when viewed from a certain angle, reflect the constellations, despite it being broad daylight",
+        "You discover a choir of frogs belting out melodious croaks, with a hat in front of them for tips"
+      ]
     }
   },
   {
@@ -292,9 +313,28 @@
     "bottom": "water",
     "left": "water",
     "details": {
-      "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
-      "things": ["some old bones", "a funny knife", "a tiny mouse"]
+      "names": [
+        "The Swaying Twins of Driftwater",
+        "Pebble Isle Archipelago",
+        "The Haphazard Span of Teeter-Tower",
+        "Swingbridge Sanctuary",
+        "Bridgetown’s Bouncing Bastions"
+      ],
+      "descriptions": [
+        "The towers lean towards each other, sharing centuries of whispered secrets and the occasional storm-tossed pigeon.",
+        "A surprisingly spry troll operates the swingbridge, collecting an odd assortment of trinkets as toll - today, it’s left socks only.",
+        "The islands are a favored picnic spot for local ghosts, with the see-through sandwiches to match.",
+        "Every full moon, the towers’ highest rooms flash with mysterious lights, as if the stars themselves fancied a bit of interior decorating.",
+        "A mermaid bard routinely serenades the bridge-crossers, though her repertoire tragically consists solely of off-key sea shanties.",
+        "The waters around the islands are renowned for whispering sarcastic encouragement to unsteady swimmers."
+      ],
+      "things": [
+        "You find a pair of soggy wizard hats, each one inscribed with a spell that keeps whispering for drier conditions.",
+        "You come across an ornate teacup, floating perfectly upright – a tiny tadpole circles inside, acting particularly sophisticated.",
+        "You stumble upon a tiny, intricate drawbridge model, marooned upon one of the white stones, perpetually stuck in the ‘lowered’ position.",
+        "You encounter a see-through satchel filled with ‘Ever-Dry’ Towels, all of which seem to be in a perpetual state of dampness – defying their one job.",
+        "You discover a set of waterproof playing cards, curiously enough, all of them are the ‘Ace of Frogs’ from different decks."
+      ]
     }
   },
   {
@@ -304,9 +344,29 @@
     "bottom": "land",
     "left": "water",
     "details": {
-      "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
-      "things": ["some old bones", "a funny knife", "a tiny mouse"]
+      "names": [
+        "The Wobbly Causeway of Singlefile",
+        "The Swaying Hall on Stilts",
+        "The Lone Wharfer’s Convention Centre",
+        "Bridgepoint Meetinghouse",
+        "Swaying Span of Narrow Crossing",
+        "The Plank Plaza Peril"
+      ],
+      "descriptions": [
+        "The bridge creaks scandalously, gossiping about the weight of your footsteps.",
+        "At high tide, the community hall seems to be waving its wharf like a long, wooden leg trying to find a dry spot to dance.",
+        "Local legend has it the bridge was built by two stubborn carpenters, each starting at an opposite end, hence the slight jog in the middle where they refused to give ground.",
+        "The hall’s windows peer out, fogged with the ghostly breath of a hundred past gatherings.",
+        "A weather-worn sign by the hall door cheerfully declares ‘Bingo Night!’ but the date is lost to time and the peckish appetites of woodworms.",
+        "Occasionally, the water around the spits chuckles quietly, as if it knows a secret joke about the land."
+      ],
+      "things": [
+        "You come across a miniature, hand-painted sign that reads ‘Welcome to Swaybridge - Mind Your Step!’. It dangles from one nail, creaking as it sways precariously in the wind.",
+        "You find an incredibly optimistic fishing rod leaning against the community hall. The reel is made of polished driftwood and the line is nothing but an endless strand of hopeful intentions.",
+        "You stumble upon a well-weathered community announcement board that offers a reward for the ‘safe return of the mayor’s runaway wig’. The accompanying sketch is both elaborate and completely useless.",
+        "You happen upon a collection of seashells arranged in a peculiar pattern on the wharf, suggesting that this is either an avant-garde art installation or a very relaxed attempt at a summoning circle.",
+        "You spot a peculiar looking pair of binoculars that, upon closer inspection, inverses distances, making faraway objects appear to be uncomfortably close while nearby sights are lost to the horizon."
+      ]
     }
   },
   {
@@ -316,9 +376,28 @@
     "bottom": "water",
     "left": "water",
     "details": {
-      "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
-      "things": ["some old bones", "a funny knife", "a tiny mouse"]
+      "names": [
+        "The Frostbitten Hamlet of Triple Hearth",
+        "Shiverwood Isles",
+        "Gripvine Archipelago",
+        "The Chilled Waters of Nearfrost",
+        "Tanglethorn Glacier Isles"
+      ],
+      "descriptions": [
+        "The wind’s whistle weaves through jagged icicles, playing a chilly symphony for no one in particular.",
+        "A trio of crooked houses huddle together, sharing secrets and groaning under a blanket of snow.",
+        "The slender, grasping tendrils of emerald moss perform an eerie dance on the trees, as if warning you to keep your distance.",
+        "Each time you exhale, your breath joins the near-frozen tapestry above the water, waltzing with mist before vanishing into the cold.",
+        "Somewhere beneath the glassy surface, you hear the slow, rhythmic crackling of ice, as if the water itself is shifting in its slumber."
+      ],
+      "things": [
+        "You find a shivering snow globe, inside which a tiny version of the village seems to be enduring a comically exaggerated blizzard.",
+        "You come across a pair of ice skates, each blade enchanted to squawk like a seabird with every stride.",
+        "You stumble upon a knitted woolen cap that, when worn, gives you an insatiable craving for fish and an uncanny talent for ice-fishing.",
+        "You discover a frostbitten diary, its entries discussing the social politics of penguins as observed by the reclusive, and possibly imaginary, ‘Penguin Queen’.",
+        "You encounter a set of wind chimes made of icicles that play a suspiciously catchy tune, rumored to be the top hit in a parallel universe.",
+        "You unearth an ancient-looking, frozen spyglass that shows a warmer season whenever you peer through it."
+      ]
     }
   },
   {
@@ -328,9 +407,29 @@
     "bottom": "land",
     "left": "water",
     "details": {
-      "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
-      "things": ["some old bones", "a funny knife", "a tiny mouse"]
+      "names": [
+        "The Snoring Shores",
+        "Whispers Way by the Weeping Willows",
+        "The Slumbering A-frame of Mossrooftop",
+        "The Musing Tower of Mellowstone",
+        "The Enigmatic Abode of MaybeMoor",
+        "The Drowsy Dendro Dwellings"
+      ],
+      "descriptions": [
+        "The sea whispers secrets to the sleepy road that hugs the coast like an old friend.",
+        "A-frame abode stands askew, its mossy toupee wobbling in the coastal breeze as if nodding at passersby.",
+        "The tower stands silent, having forgotten its own purpose, occasionally sighing as the wind flutters through its open windows.",
+        "A domicile by the coast can’t seem to decide if it’s inhabited, shadows flitting about the curtains as though in a silent debate.",
+        "Droopy trees, with their branches like weary arms, dip their fingers into the shallow water, testing the temperature for a swim they’ll never take.",
+        "Every now and then, the wind picks up just enough to tangle your hair like an overzealous stylist, shortly before losing interest."
+      ],
+      "things": [
+        "You come across a pair of spectacles with lenses so thick, they magnify your eyes to comic proportions, and seem to grant you the uncanny ability to peer into the very soul of the droopy trees.",
+        "You stumble upon a remarkably chatty hermit crab who insists he’s a wizard cursed by an irritable sea witch, and is desperately seeking an assortment of shiny trinkets to break the spell.",
+        "You find a slightly soggy, dog-eared manual entitled ‘How to Talk to Your House: Tips and Tricks for Pacifying Mysterious Abodes’, with pages stuck together by what you hope is just regular moss.",
+        "You discover a collection of wind chimes hanging from the droopy trees, each one whistling a different tavern tune and occasionally offering good, although unsolicited, life advice.",
+        "You come across a mailbox outside the quiet tower with an endless supply of postcards depicting various mystical creatures vacationing at this very coastline, complete with scribbles detailing extravagant — and likely fabricated — adventures."
+      ]
     }
   },
   {
@@ -340,9 +439,28 @@
     "bottom": "land",
     "left": "land",
     "details": {
-      "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
-      "things": ["some old bones", "a funny knife", "a tiny mouse"]
+      "names": [
+        "The Slim Lake of Luminous Leeways",
+        "The Isle’s Eerie Illuminated Ingress",
+        "The Abandoned Oar Haven",
+        "Casa Curiosa by the Creepy Canoe",
+        "Portal Pond and the Wobbly Waterfront Dwelling"
+      ],
+      "descriptions": [
+        "A rowboat lists gently, abandoned, as if its paddlers fled from an unseen terror—or perhaps an unseen jokester’s guffaw.",
+        "An ethereal doorway sparkles on an island, beckoning with a neon hum, where the only entry fee might just be your sense of incredulity.",
+        "A quaint house nestles inside another as if it couldn’t quite decide on its architectural aspirations, or perhaps it lost a bet.",
+        "Ghostly lights flicker beneath the water’s surface, teasing the eyes with a dance that spells misadventure—or at least a curious case of swamp gas.",
+        "Amidst the still water, lily pads perform a slow ballet, occasionally interrupted by a frog’s bemused croak, as if to ask, ‘What’s all this about, then?’"
+      ],
+      "things": [
+        "You stumble upon a set of waterproof playing cards, each card depicting an oddly muscular duck sporting heroic attire.",
+        "You find a pair of spectacles with lenses that make everything appear upside down, labeled ‘Property of Dr. Vertigo.’",
+        "You come across an ancient rowboat with an AI oarsman who stubbornly insists it’s still the Age of Sail.",
+        "In the mud, you spot a bottle of ‘Eau de Bog Beast’ perfume, guaranteed to attract mythical swamp creatures for that special someone.",
+        "You discover a door mat in front of the strange house that reads ‘Go Away!’ but whispers ‘Welcome’ when stepped on.",
+        "You unearth a book titled ‘Cooking with Ectoplasm’ by the Ghost Gourmet, complete with ethereal recipes that float off the pages."
+      ]
     }
   },
   {
@@ -352,9 +470,28 @@
     "bottom": "water",
     "left": "land",
     "details": {
-      "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
-      "things": ["some old bones", "a funny knife", "a tiny mouse"]
+      "names": [
+        "The Silenced Shroomscape Peninsula",
+        "Stilt-House Shores of the Whimsical Waves",
+        "Gem Shard Bay and the Sparkling Pinnacle Point",
+        "The Quiet Coast of Myconid Mansions",
+        "Harbor of the Crystal Spire Sea-Sticks"
+      ],
+      "descriptions": [
+        "A mushroom-shaped cottage wobbles precariously on stilts, as waves whisper secrets to its underbelly.",
+        "Glittering rock shards rise from the sea like a dragon’s jeweled spine, defiant against the caress of the tides.",
+        "A hermit crab conducts an orchestra of clattering shells in a symphony only it understands, under the moonlit harbor.",
+        "Sand squelches underfoot, playing hide and seek with a lone, sun-bleached sandal that’s seen better adventures.",
+        "Gem-like rocks glisten with briny dew, casting prismy glows that dance on cheeky seagulls preening atop them."
+      ],
+      "things": [
+        "You stumble upon a cheery red mailbox shaped like a giant snail, but instead of letters, it’s filled with assorted mystical snail shells that hum when held to the ear.",
+        "You find a whimsically crooked signpost with arrows pointing in improbable directions; ‘Skyward’, ‘Undersea’, and ‘Yesterday’.",
+        "You come across a pair of boots outside one mushroom house, with soles made from spongy moss that leave smiley-face imprints in the sand.",
+        "You discover an elegantly carved driftwood wand, entwined with seaweed, that insists on trying to tickle any nearby sea life.",
+        "You find a collection of colorful, translucent stones that seem to pulse softly with light, each hums a different note when skipping across the water.",
+        "You come across a bottled shipwreck in miniature, complete with tiny ghosts arguing over a map to buried treasure."
+      ]
     }
   },
   {
@@ -364,9 +501,28 @@
     "bottom": "water",
     "left": "water",
     "details": {
-      "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
-      "things": ["some old bones", "a funny knife", "a tiny mouse"]
+      "names": [
+        "The Soggy Isles’ Bazaar",
+        "Tentacle’s Rest",
+        "Shackleton’s Perch",
+        "The Thirsty Peak",
+        "The Sprinkling Heights of Sir Drips-a-lot",
+        "Wellington Crest"
+      ],
+      "descriptions": [
+        "A tent flaps comically, perched on a speck of an island, as if it stopped for a brief, whimsical visit and decided to stay.",
+        "A ramshackle hut squats on an islet, looking suspiciously like it assembled itself from driftwood and sheer optimism.",
+        "Atop a cliff like a crown on a giant’s head, a well stands, rumored to be filled with liquid stardust rather than mere water.",
+        "Island hopscotch is the favored pastime here—leapfrogging from rock to grassy knoll, each jump a gamble between a splash and a thud.",
+        "Seabirds hold raucous debates in the saline air, diving now and then to fact-check with the fish teeming just below the waves."
+      ],
+      "things": [
+        "You stumble upon a snug tent that’s crafted entirely from waterproof parchment. Mysteriously, it’s scribbled over with raindrop-shaped runes.",
+        "You find a shabby driftwood shack, its interior lavishly decorated with seashell mosaics that depict the great squidball championship.",
+        "You come across a duo of mismatched boots floating near the shore; one whispers bad jokes when worn, and the other squawks like a seagull with each step.",
+        "In the heart of the tallest isle, you discover a well. Oddly enough, it’s not for water—the well spouts a continuous stream of haikus etched into stones.",
+        "You unearth a bottle with a tiny, grumpy genie inside, who will only grant wishes pertaining to fish, claiming to be a ‘specialist in marine aspirations’."
+      ]
     }
   },
   {
@@ -376,9 +532,27 @@
     "bottom": "land",
     "left": "water",
     "details": {
-      "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
-      "things": ["some old bones", "a funny knife", "a tiny mouse"]
+      "names": [
+        "The Slender Pier of Quibble Quay",
+        "Stilted Secrets Abode",
+        "The Swaying Staircase of the Tidal Homestead",
+        "Wobble Walk Wharf",
+        "The Leaning Lodge of the Lunar Banner"
+      ],
+      "descriptions": [
+        "A seagull squawks overhead, eyeing your fish and chips with devious intent, as it performs an uncanny impersonation of the local tax collector.",
+        "An old, creaky house on stilts looms over the water, a staircase ebbing and flowing with the tide, as if inviting the sea itself to step inside for tea.",
+        "A pirate flag, embarrassingly bleached from too much sun, flutters like a tired moth above the harbour, hinting at the most leisurely and least frightening pirates to ever sail the seven-ish seas.",
+        "With each slap of the wave against the wharf, planks groan underfoot as if gossiping about the weight of your boots and the secrets you keep in your pockets.",
+        "As you look closer, the house’s stilts aren’t exactly wooden; they’re a tangle of mermaid limbs, frozen in time as they play the most intense game of statues known to sea-kind."
+      ],
+      "things": [
+        "You stumble upon a pair of spectacles with lenses made of fishbowls, tiny colorful fish swimming inside.",
+        "You find a remarkably friendly starfish adhered to the side of the stilthouse, offering sage advice on weather patterns and stock investments.",
+        "You come across a set of wind chimes made from assorted seashells, oddly never clanging despite the breeze.",
+        "You uncover an ornate compass whose needle spins not to north but to the nearest source of laughter.",
+        "You spot a message in a bottle, but upon opening, you discover it’s an invitation to a ‘sea monster’s tea party’, dated 300 years ago."
+      ]
     }
   },
   {
@@ -388,9 +562,28 @@
     "bottom": "land",
     "left": "land",
     "details": {
-      "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
-      "things": ["some old bones", "a funny knife", "a tiny mouse"]
+      "names": [
+        "The Leaning Market of Balderdash Bluffs",
+        "Tent of Illuminated Whimsies",
+        "Glowworm Grotto’s Unlikely Emporium",
+        "The Twin Puddle Shoppes",
+        "Boulder’s Brace Boardwalk"
+      ],
+      "descriptions": [
+        "A tent glows softly, mysterious wares perhaps or a fortune teller’s lair, its silhouette dancing against the twilight canvas.",
+        "A shop teeters on the edge of reason, wedged between boulders as if the very earth gave birth to commerce.",
+        "An inviting cave beckons, illuminated like a jack-o’-lantern, with the allure of hidden treasures or perhaps just a very lost glow-worm.",
+        "Ponds lay still as glass, reflecting not just stars, but the occasional adventurous face peering into its depths, pondering the meaning of wet.",
+        "Boulders stand as nature’s bouncers, giving only the most nimble shoppers access to the precarious marketplace above."
+      ],
+      "things": [
+        "You stumble upon a tiny shop named ‘The Balanced Bottle’, with potions balancing on various-sized rocks instead of shelves, a sign outside promises, ‘If it doesn’t topple, it’s on the house!’",
+        "You find a cozy nook called ‘The Boulders’ Bakery’, known for its ‘Rock Cakes’ that are surprisingly soft, and a free pebble bun comes with every purchase, warning: chewing is not advised.",
+        "You come across a curious tent, ‘Madame Mystica’s Medium-sized Miracles’, casting all sorts of strange-colored shadows on its walls; inside, an eccentric soothsayer offers to read your fate in a cup of unusually chunky tea.",
+        "You discover a glowing cave dubbed ‘The Shimmering Shine’, where luminescent critters offer guided tours in hushed tones for the price of some shiny trinket or another; ‘Blink and you’ll miss it’, they say.",
+        "You happen upon ‘The Pond Emporium’, a dual-pond establishment where gossiping fish sell secrets and trinkets; the ‘Two for one secret pond special’ is a frequent deal, as long as you don’t let the catfish out of the bag.",
+        "You spot a signpost with an arrow pointing downwards reading ‘Subterranean Souvenirs’, where a family of moles trade worms shaped like famous landmarks, with burrow-friendly maps included."
+      ]
     }
   },
   {
@@ -400,9 +593,29 @@
     "bottom": "land",
     "left": "land",
     "details": {
-      "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
-      "things": ["some old bones", "a funny knife", "a tiny mouse"]
+      "names": [
+        "The Meandering Isles of Midflow",
+        "Lone Abode of the Delta Drifter",
+        "The Twisting Tether Peaks",
+        "Cableway Heights of the Cliffside Hermits",
+        "The Serpentine Stream’s Solitary Settlement",
+        "The Precarious Peaks’ Peculiar Pulley Passage"
+      ],
+      "descriptions": [
+        "A lone shanty perches atop a muddy islet, with shutters that flap like an old coat in a storm.",
+        "A rickety cable car dances precariously between jagged peaks, its creaks telling tales of uncertain engineering.",
+        "Islands pop up like soggy toadstools in the river’s path, each an adventure hiding in plain sight.",
+        "Cliff faces stand like grumpy librarians, stern and forbidding, daring climbers to attempt their treacherous shelves.",
+        "A thick mist clings to the water’s surface as though the river itself was dreaming of clouds."
+      ],
+      "things": [
+        "You come across a pair of spectacles with lenses that perpetually fog and clear, suggesting the emotional state of the nearby fish.",
+        "You find a map with an ‘X’ marked, but the paper is soggy and each time you look, the ‘X’ seems to shift positions whimsically.",
+        "You stumble upon an exceedingly polite talking frog, who insists on reciting haikus about the weather and lily pads.",
+        "You discover a tiny, waterproof book titled ‘How to Woo a Mermaid in Five Easy Sonnets’, floating gently down the river.",
+        "You unearth a bobbing bottle with a message inside claiming to be a genie’s vacation request, asking politely for release elsewhere.",
+        "You encounter a seemingly normal rock that sings sea shanties when no one’s looking, but bashfully clams up if you try to listen."
+      ]
     }
   },
   {
@@ -412,9 +625,23 @@
     "bottom": "land",
     "left": "land",
     "details": {
-      "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
-      "things": ["some old bones", "a funny knife", "a tiny mouse"]
+      "names": [
+        "The Serpentine Trail to Hillock Home",
+        "Misty Puddlestead across the Wobbly Bogs",
+        "The Purring Pavilion of Steamy Whiskers"
+      ],
+      "descriptions": [
+        "A path meanders whimsically up a hill, where a quaint cottage perches precariously as if it might tumble down with a strong breeze.",
+        "Across a collection of gurgling boggy ponds, a peculiar edifice squats, its architecture oddly reminiscent of a cat in mid-stretch.",
+        "From a chimney atop a curious construction, columns of steam billow forth, drawing whimsical shapes against the backdrop of a perplexed sky."
+      ],
+      "things": [
+        "You stumble upon a pair of spectacles with lenses that swirl like tiny galaxies, which somehow make the murk look a lot less murky and much more sparkly.",
+        "You come across a series of ponds, each with a little stone signpost that cheekily reads ‘No Running, No Jumping, No Fun at All!’ despite the lily pads being curiously bouncy.",
+        "In the distance, you spot what seems to be a cat-shaped building yawning, its window-eyes squinting in the sunlight, as if perplexed by the concept of waking up.",
+        "You find a neatly-tucked letter by the path, sealed with a waxy smiley face. Upon opening, it politely asks for directions to ‘The Great Soggy Beyond’ and offers a soggy handshake in the form of a wet leaf.",
+        "You come across a tiny chimney sweep’s brush lying beside the path, muttering about the ‘unprecedented cleanliness’ of the strange building’s flue and how it’s putting good brushes out of work."
+      ]
     }
   },
   {
@@ -424,9 +651,27 @@
     "bottom": "land",
     "left": "land",
     "details": {
-      "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
-      "things": ["some old bones", "a funny knife", "a tiny mouse"]
+      "names": [
+        "The Winkstone Waters",
+        "Blink Bay Hamlet",
+        "Four Abodes Cove",
+        "Gleamgaze Inlet"
+      ],
+      "descriptions": [
+        "A mischievous breeze tousles the thatch of haphazardly angled roofs, lending the air a whimsical tune.",
+        "In a bay where the water shimmers with suspicious clarity, a gleaming boulder winks in the sunlight, as if knowing something you don’t.",
+        "A quartet of crooked dwellings cluster together, gossiping in the language of creaking wood and clattering shutters.",
+        "Seabirds argue boisterously overhead, casting fleeting shadows that dance like marionettes across the cobblestones.",
+        "An audacious crab scuttles across the path, pausing to brandish its claws impudently at curious onlookers."
+      ],
+      "things": [
+        "You find a pair of spectacles with lenses made of sea glass, claiming to give you ‘the true sailor’s sight’.",
+        "You come across a signpost with arrows pointing in all directions, including up and down, with destinations like ‘Sky Market’, ‘Underfish Tavern’, and ‘Bob’s Inexplicable Emporium’.",
+        "You stumble upon a seemingly ordinary pebble that whispers nautical puns when thrown into the water.",
+        "You discover a collection of tiny ships in bottles, but the ships are actually alive and sail around their glass prisons when nobody’s watching.",
+        "You uncover an old waterproof book titled ‘The Inconvenient Tides’, which changes its contents based on the moon’s phases.",
+        "You spot a row of seashells arranged in a meticulous pattern that, when stepped on, play a jaunty tune reminiscent of a sea shanty."
+      ]
     }
   },
   {
@@ -436,9 +681,28 @@
     "bottom": "land",
     "left": "land",
     "details": {
-      "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
-      "things": ["some old bones", "a funny knife", "a tiny mouse"]
+      "names": [
+        "Boulder’s Fling Glade",
+        "Leafcloud Cottage",
+        "Tipsy Tree Copse",
+        "The Tower of Precarious Peaks",
+        "Rubble’s Respite",
+        "Wobblewood Hamlet"
+      ],
+      "descriptions": [
+        "A playful breeze flirts with the precarious leaves of wobbly, gnarled trees, each threatening to join their brethren in a leafy tornado at the slightest provocation.",
+        "A cottage, quainter than a teapot and twice as cozy, nestles under the watchful boughs of the trees, its chimney puffing out whimsical rings of smoke like a jovial wizard at leisure.",
+        "Monolithic stones, jutting out like the teeth of a giant’s comb, give the impression that some celestial toddler scattered his building blocks during a cosmic tantrum.",
+        "The air carries the crisp scent of stone and moss, as if the ruins themselves exhaled a breath laden with the dusty secrets of antiquity.",
+        "With a spire sharp enough to prick the curiosity of any wanderer, the tower stands, a lone sentinel in a land of whimsy and whispered legends."
+      ],
+      "things": [
+        "You stumble upon a pair of spectacles with lenses made of shimmering crystal that seem to change color depending on the angle of light; oddly enough, they grant you clearer vision in complete darkness rather than daylight.",
+        "You find a set of wind chimes hanging from a low branch, each chime carved from a different mysterious rune-covered stone that hums a soothing tune, puzzlingly only when there is no breeze.",
+        "You come across a small, snoring garden gnome made out of clay; when you poke it, it wakes up, grumbles about the ‘unearthly hour,’ gives you a cryptic riddle, and goes back to sleep.",
+        "You discover an enchanted mailbox at the edge of the cottage’s property, which upon opening, reveals a swarm of tiny letters with wings that flutter around you before flying off to their unknown destinations.",
+        "You spot a hefty tome under one of the gnarled trees, titled ‘The Casual Necromancer: Raising the Dead for Everyday Chores,’ which, upon skimming, contains surprisingly helpful tips on animating skeletons to help with mundane tasks."
+      ]
     }
   },
   {
@@ -448,9 +712,28 @@
     "bottom": "land",
     "left": "land",
     "details": {
-      "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
-      "things": ["some old bones", "a funny knife", "a tiny mouse"]
+      "names": [
+        "The Luminous Lagoon Labyrinth",
+        "Gloaming Glade’s Gyre",
+        "Spiral Soak of the Phosphorescent Pines",
+        "Twisting Trails to the Tincture Tarns",
+        "The Prism Pools Passage",
+        "The Wending Way of Wistful Waters"
+      ],
+      "descriptions": [
+        "Bizzare, luminescent pools wink and flicker with eerie light, as if winking secrets to the adventurous or foolhardy.",
+        "Ancient, twisted trees stand sentinel around a meandering spiral path, their bare branches clawing at the sky like the hands of long-forgotten wizards casting a silent spell.",
+        "As you traverse the mischievous mountain pass, a moss-covered stone giggles beneath your feet, warning of ticklish landslides.",
+        "Over a blanket of green, a path slithers through the plains, as if carved by a gigantic, rather absent-minded, earthworm."
+      ],
+      "things": [
+        "You find a rubbery duck with enigmatic runes on its bottom, floating solemnly in one of the luminescent pools.",
+        "You stumble upon a tree with a face, who seems to be snoring loudly, its bark softly rising and falling with each breath.",
+        "You come across a pair of spectacles with lenses made of clear pool water, claiming to give insight into the ‘true nature of wetness’.",
+        "You discover a set of stepping stones across the pool that emit musical notes when stepped on, playing a rather catchy tune.",
+        "You unearth a small, moss-covered book titled ‘The Introverted Trees: A Guide to Shy Flora’ beside the path through the mountain.",
+        "You encounter a peculiar stone tablet that’s perpetually changing its inscriptions, currently reading ‘Please Wipe Your Feet Before Entering the Mystic Pools’."
+      ]
     }
   },
   {
@@ -460,9 +743,29 @@
     "bottom": "land",
     "left": "land",
     "details": {
-      "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
-      "things": ["some old bones", "a funny knife", "a tiny mouse"]
+      "names": [
+        "The Sparkling Moat of Mystic Monoliths",
+        "The Jewel-Crowned Ring of Abjuration",
+        "Chimneytop Citadel of the Smoggy Sovereign",
+        "The Bejeweled Bastion of Puffing Spires",
+        "The Enchanted Canal Keep",
+        "Circlet of the Smoking Obelisks"
+      ],
+      "descriptions": [
+        "A circle of ancient obelisks, each festooned with sparkling jewels, guards an oddly precise canal; the stones gossip among themselves in a language lost to time.",
+        "An eccentric brick edifice billows whimsical puffs of smoke from its chimney-crowns, as if a dragon with a penchant for architecture had settled within.",
+        "A stately brick fortress looms, its turrets exhaling smoke in lazy spirals, seeming to mimic the leisurely dance of a court wizard too enamored with his own incense.",
+        "Amidst the mechanical hum, a building of brick and whimsy stands sentinel, its smokestacks playing tag with the wind, their cloudy fingers brushing the sky with sooty strokes.",
+        "A robust brick behemoth celebrates its presence with tufts of smoke pirouetting from its tops, as though it were baking the world’s largest pastry in its cavernous ovens below."
+      ],
+      "things": [
+        "You come across a whimsical whistling teapot, steaming with a potion that changes its flavor with the drinker’s mood.",
+        "You stumble upon a pair of spectacles that when worn, translate any text into humorous limericks.",
+        "You find an enchanted doormat at the entrance of the brick building, which compliments your shoes before allowing you in.",
+        "You discover a set of jewel-encrusted dice at the base of an obelisk, rumored to grant extravagant luck but at unpredictable times.",
+        "You unearth an industrious clockwork beetle, scuttling around and diligently polishing the encrusted jewels with its tiny bristle brushes.",
+        "You spot a small, soot-covered dragon perched atop a chimney, lazily puffing out smoke rings and chuckling at its own cloudy creations."
+      ]
     }
   },
   {
@@ -472,9 +775,28 @@
     "bottom": "water",
     "left": "land",
     "details": {
-      "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
-      "things": ["some old bones", "a funny knife", "a tiny mouse"]
+      "names": [
+        "The Gazing Strait",
+        "The Twin Gazes crossing",
+        "The Isle of Eyes",
+        "The Narrows of Nearsight",
+        "The Chuckling Channel"
+      ],
+      "descriptions": [
+        "A lighthouse-tower stands sentinel, its zigzagging light winks between two stony-faced cliffs like a mischievous conspirator.",
+        "On the coastal causeway, crabs engage in theatrical duels, their claws brandishing as though auditioning for an undersea opera.",
+        "A breeze whispers through the strait, carrying with it rumors of the pebble beaches where waves nibble the shore like curious kittens.",
+        "As you cross the causeway, the grumbling stones beneath seem to share secrets, each step stirring tales of ancient crossings and forgotten voyages.",
+        "The tower’s beacon rotates lazily, a cyclopean eye that never sleeps, always watching the narrow embrace of the two giants made of stone and brine."
+      ],
+      "things": [
+        "You stumble upon a pair of old leather boots that, when worn, can’t help but dance a jig on the causeway’s cobblestones.",
+        "You find a spyglass that shows not the distant scenery but the exaggerated, comically distorted faces of those on the opposing coastline.",
+        "You come across a melodious seashell, each echo sounding suspiciously like it’s whispering local gossip.",
+        "You unearth a small, ornate bottle containing a mischievous spirit that promises to answer three questions, but in the most roundabout way possible.",
+        "You spot a weather-worn diary belonging to the lighthouse keeper, with entries all arguing about what the two ‘face’ coastlines are bickering about today.",
+        "You discover a map with an ‘X’ that marks a spot on the island, but when you look up, you realize the ‘X’ is where a sign hangs reading ‘Ye be standing on the treasure, fool!’, with nothing but a mirror on the ground."
+      ]
     }
   },
   {
@@ -484,9 +806,28 @@
     "bottom": "land",
     "left": "land",
     "details": {
-      "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
-      "things": ["some old bones", "a funny knife", "a tiny mouse"]
+      "names": [
+        "The Staircased Mound of Meandering Ascension",
+        "The Subterranean Stairwell of Rootbound Descent",
+        "The Bog of Bewildering Boughs",
+        "The Stepping Stone Trail of Sodden Secrets",
+        "The Peculiar Perch of the Hillock Chamber"
+      ],
+      "descriptions": [
+        "A set of moss-covered steps ascend a marshy hill, each one threatening to crumble underfoot with an amusing squelch.",
+        "Another set of slippery stone steps beckon adventurers below the hill, disappearing into an almost inviting darkness that smells faintly of wet socks.",
+        "Tendril-like roots snake into squishy earth, creating a treacherous dance floor that requires a nimble step or a good sense of humor to navigate.",
+        "A wonky path of stepping stones wobbles and dips through the swamp, daring travelers to play a game of ‘splashy consequence’ with each leap.",
+        "Atop a low hillock, a curious small room crowned with wavy thatch seems to have sprouted from the ground, its door creaking in the wind like a shy creature whispering for a peek inside."
+      ],
+      "things": [
+        "You stumble upon a soggy hat that when worn, whispers poor advice with unshakable confidence.",
+        "You find a collection of tiny amphibious musicians, who offer to play a tune that can make the marsh grasses dance.",
+        "You come across an ancient pair of glasses that remarkably un-fogs itself in the swampy air, rumored to have belonged to a nearsighted swamp witch.",
+        "You discover a stone on the path that giggles when stepped on, seemingly ticklish from centuries of undisturbed moss growth.",
+        "You uncover an old, ornate door knocker shaped like a frog in the small room, which ribbits loudly if anyone but the owner tries to use it.",
+        "You spot a series of oddly symmetrical bubbles in the marsh that pop to release the scent of freshly baked bread."
+      ]
     }
   },
   {
@@ -496,9 +837,29 @@
     "bottom": "water",
     "left": "land",
     "details": {
-      "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
-      "things": ["some old bones", "a funny knife", "a tiny mouse"]
+      "names": [
+        "The Bobbing Poplars Run",
+        "The Roundabout Rapids",
+        "The Tipsy Mount Tavern",
+        "Stilted Stables of Pebblepond Peak",
+        "The Laughing Lake Lookout",
+        "The Pathside Pint"
+      ],
+      "descriptions": [
+        "A river gurgles with mirth, tickling the feet of laughing white poplars that gossip in the breeze.",
+        "A curious collection of shabby shacks clings to a mountain like barnacles, eyeing the lake below with envious glances.",
+        "An ale-slinging tavern straddles the path, a beacon of frothy respite for weary travelers and thirsty adventurers.",
+        "Rock-strewn and rugged, a mountainous upstart thrusts skyward from the lake’s mirror, daring climbers to dance upon its slopes.",
+        "A rustic saloon croons a boozy lullaby, its swinging doors keeping waltz-time with the tales of misadventures within."
+      ],
+      "things": [
+        "You come across a pair of spectacles with lenses made of polished river water, constantly flowing yet somehow magnifying.",
+        "You find a wobbly signpost where every direction points to ‘Over There!’ with distances that change when you’re not looking.",
+        "You spot a set of dental tools fashioned from white poplar twigs, rumored to clean teeth with the freshness of a brisk morning breeze.",
+        "You stumble upon a tipsy minstrel strumming a lute by the saloon, singing ballads about the romantic escapades of hill-dwelling sheep.",
+        "You discover a doorknocker on the small building shaped like a fish, which insists on being complimented before allowing entry.",
+        "You unearth an unusual fishing rod by the lake with a self-baiting hook that whispers bad jokes to lure in easily amused fish."
+      ]
     }
   },
   {
@@ -508,9 +869,28 @@
     "bottom": "land",
     "left": "land",
     "details": {
-      "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
-      "things": ["some old bones", "a funny knife", "a tiny mouse"]
+      "names": [
+        "The Labyrinthine Loft of Pebblepeak",
+        "The Cascading Ponds of Echoing Hollow",
+        "The Squarish Watch of Mirrorwater",
+        "Tangletrail Mountain’s Serpentine Baths",
+        "The Cubic Outlook over Rippleway Lagoons"
+      ],
+      "descriptions": [
+        "A mischievous mountain path invites you to get lost within its twisty embrace, while smirking boulders offer lousy directions.",
+        "A cascade of laughter pours from waterfalls connecting gossipy ponds, thoroughly convinced they’re the pinnacle of aquatic architecture.",
+        "A solemn, square brick building casts a judgmental eye over the watery network, contemplating a career change to a lighthouse.",
+        "Ducks engage in philosophical debate over the reflective qualities of the lakes, unconcerned by the echoing drips from unseen cave ceilings.",
+        "Aspiring cartographers throw their maps into the air in frustration, as the mountain paths snicker at the human hubris."
+      ],
+      "things": [
+        "You come across a pair of spectacles with lenses made of waterfall mist, constantly changing and flowing.",
+        "You find a neatly squared stone, that when squeezed, emits a chorus of frog croaks like a musical instrument.",
+        "You stumble upon a waterproof scroll that claims to be a ‘Self-Updating Map’ but actually redraws itself to be more confusing every time you glance away.",
+        "You uncover a tiny, square brick house model that, when placed on the ground, expands to full size complete with a tea kettle boiling inside.",
+        "You discover a soggy, yet cozy-looking adventurer’s hat that, when worn, guides you to the nearest dry spot in a gentle, narrated voice.",
+        "You encounter an enchanted fishing rod that, when cast, pulls out comically unhelpful items from the water, like a boot filled with custard or a bottle with a message that says ‘Better luck next time!’."
+      ]
     }
   },
   {
@@ -520,9 +900,29 @@
     "bottom": "land",
     "left": "land",
     "details": {
-      "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
-      "things": ["some old bones", "a funny knife", "a tiny mouse"]
+      "names": [
+        "The Bubbling Cauldrons of Mount Hiccough",
+        "Charred Timber Grove",
+        "The Dual Crater Dancehall",
+        "Sizzlestick Forest",
+        "Glowgully Chasm",
+        "The Serpentine Trails of Magma March"
+      ],
+      "descriptions": [
+        "A sizzling hot spring belches thick steam, around which fire-resistant flowers lazily wilt and recover as if in a slow-motion dance.",
+        "An unsuspecting traveler might find their boots singed as cheeky, molten rivulets chase them across the blackened ground, giggling heat.",
+        "A chorus of crackling can be heard as white, strange trees stubbornly hold their ground, their bark seemingly impervious to the lava’s siren call.",
+        "Across the scorched landscape, a lonely sign warns: ‘Beware: Lava lakes! Also, picnics prohibited due to lack of suitable grass... or water... or shade.’",
+        "Somewhere in the distance, a seemingly relaxed dragon toasts marshmallows on its own fiery breath, oblivious to the world’s wonder at its culinary self-sufficiency."
+      ],
+      "things": [
+        "You stumble upon a blackened teapot, whistling an off-tune melody with steam from the nearby lava flow; its inscription claims to brew the ‘Hottest Tea in Existence’.",
+        "You find a pair of fireproof boots named ‘The Hotsteppers’, tapping their toes impatiently as if waiting for a daring dance across the molten terrain.",
+        "You come across a singed diary belonging to a ‘Pyrogastronomer’, containing recipes for dishes like ‘Lava-Boiled Eggs’ and ‘Magma Fondue’, all with a disclaimer: ‘Results may vary... and combust’.",
+        "You discover a charred signpost with arrows pointing in absurd directions: ‘This way to the Fiery Falls’, ‘That way to the Sizzling Springs’, and ‘Another way to the Blazing Beach’.",
+        "You spot a group of heat-resistant pink flamingos made from enchanted glass, gracefully wading through a petite lava lake as if it were a warm tropical pond.",
+        "You locate an oddly cool patch where tiny fire-resistant flowers bloom, arranged in a pattern spelling ‘HELP’ - perhaps a message, or maybe a prank by a mischievous fire sprite."
+      ]
     }
   },
   {
@@ -532,9 +932,29 @@
     "bottom": "land",
     "left": "land",
     "details": {
-      "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
-      "things": ["some old bones", "a funny knife", "a tiny mouse"]
+      "names": [
+        "The Serpentine Cliffs of Kaleidostone",
+        "The Leaning Tower of Peculiar Plains",
+        "Cliffside Carousel",
+        "The Vibrant Bluffs of Vertigo",
+        "The Tilted Abode of the Lonely Ledge",
+        "The Precarious Palette Pathway"
+      ],
+      "descriptions": [
+        "A path meanders precariously beside a cliff, providing a kaleidoscope view of strata laid bare by the indecisive whims of geology.",
+        "A solitary house, narrow as a slice of toast and just as upright, flaunts its wonky hat of a roof to the undulating plains below.",
+        "Endless bands of coloured rock serve as nature’s mood ring, broadcasting the earth’s deepest whimsy along the towering cliff.",
+        "A surprisingly chipper crow perches atop a weather vane, cawing critiques at passing clouds from the peak of the lopsided abode.",
+        "A door on the narrow house swings open, releasing a medley of peculiar scents that suggest a fusion of culinary innovation and magical mishaps."
+      ],
+      "things": [
+        "You come across a set of wind chimes made of variously hued stones, each producing a surprisingly melodic ding when struck by the cliffside breeze.",
+        "You find a pair of spectacles with rock-patterned frames that allow you to see geological history when you look through them.",
+        "You stumble upon a quirky mailbox shaped like a chimney, with letters that somehow never seem to be for the current resident.",
+        "In the shadow of the narrow house, you discover a garden of crystals that hum in harmony with each other when touched.",
+        "You find a teapot nestled in a rocky outcrop, brewing tea that tastes like different layers of the earth depending on the time of day.",
+        "You come across a set of mismatched stepping stones that thank you out loud for stepping on them with each pass."
+      ]
     }
   },
   {
@@ -544,9 +964,28 @@
     "bottom": "land",
     "left": "land",
     "details": {
-      "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
-      "things": ["some old bones", "a funny knife", "a tiny mouse"]
+      "names": [
+        "The Starry-Eyed Observatory",
+        "The Lens of Omnivista",
+        "Glinting Greenhouse Glades",
+        "Twin Puddle Lookout",
+        "The Watchful Iris",
+        "The Glass Eden by the Lakes"
+      ],
+      "descriptions": [
+        "A rather smug-looking telescope peers into the celestial sea, winking at passing clouds from atop the owl-haunted observatory,",
+        "Glass panes chuckle in the sunlight, the greenhouse bursting with gossiping flowers and the scandal of too much photosynthesis,",
+        "A pair of serene lakes lounge side by side, their surfaces smooth as a mirror, probably used by the local naiads for narcissistic endeavors,",
+        "Whimsical whispers weave from the brickwork, telling tall tales of stargazers and moonstruck lovers who’ve climbed the winding stairs for a glimpse of the infinite.",
+        "An adventurous breeze somersaults over the lakes, picks a few leafy souvenirs from the botanical sanctuary, and composes a symphony of rustles as it sweeps through the gardens."
+      ],
+      "things": [
+        "You find a pair of spectacles with lenses that seem to swirl with tiny galaxies, making everything appear as if it’s part of the cosmos.",
+        "You stumble upon a collection of star-shaped flowers, each petal shimmering with a light that mimics the twinkle of a distant star.",
+        "You come across a mischievous-looking garden gnome seeming to fish in one of the lakes, his rod made from a constellation that gently pulsates with light.",
+        "You spot a vintage brass key tangled in the branches of a willow, the teeth shaped like a crescent moon and stars, promising to unlock some astral mystery.",
+        "You unearth a diary bound in luminescent leather, the pages filled with scribbles of an astronomer’s life and unexpected humor about celestial entities."
+      ]
     }
   },
   {
@@ -556,9 +995,28 @@
     "bottom": "land",
     "left": "land",
     "details": {
-      "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
-      "things": ["some old bones", "a funny knife", "a tiny mouse"]
+      "names": [
+        "The Soggy Beanponds",
+        "The Lone Weeper’s Lake",
+        "The Dapper Dampwoods",
+        "Mossy Meanders Walkway",
+        "Sprout-sprig’s Lachrymose Lagoon"
+      ],
+      "descriptions": [
+        "A lone tree, shaped like a sorrowful droplet, sprouts precariously from the wobbly lake’s center, seemingly pondering its own existence.",
+        "Crisscrossing the plains, bean-shaped puddles wiggle with each step, as if giggle waves ripple through gelatinous waters.",
+        "A patchwork of moist moss hugs the edges of a meandering trail, providing a questionable carpet for the feet of unwary travelers.",
+        "An occasional quack erupts from the lakes, as if ducks were practicing for a stand-up comedy night only they knew about.",
+        "Footprints dance around the water’s edge in a chaotic pattern, suggesting either a merry jig or an urgent need to avoid getting wet."
+      ],
+      "things": [
+        "You find a pair of spectacles with lens thick as a wizard’s tome, remarkably undistressed by the marshy atmosphere.",
+        "You stumble upon a tiny canoe crafted out of a hollowed-out cucumber, complete with a twig paddle.",
+        "You come across an orchestra of frogs crooning a harmonious ballad, and one frog graciously offers you a signed lily pad after the chorus.",
+        "You discover a sentient patch of moss that’s eager to converse about the philosophical implications of photosynthesis.",
+        "You unearth an ancient, oddly shaped stone that insists it’s the long lost cousin of the teardrop tree.",
+        "You happen upon a collection of slippery fish-leather bound journals, chronicling the scandalous gossip of the pond’s aquatic residents."
+      ]
     }
   },
   {
@@ -568,9 +1026,29 @@
     "bottom": "land",
     "left": "land",
     "details": {
-      "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
-      "things": ["some old bones", "a funny knife", "a tiny mouse"]
+      "names": [
+        "The Soggy Hearthsteads",
+        "Mosswhisper Hamlet",
+        "Poplarshores Village",
+        "The Timeworn Jetty of Nowhere",
+        "Glimmerpond Hollow",
+        "Evershine Sip Basin"
+      ],
+      "descriptions": [
+        "A quaint cottage, its walls more moss than wood, leans against a particularly plucky poplar, stubbornly defying gravity.",
+        "A crumbled bridge, its stones now host to philosophizing frogs, juts into the still lake like a skeletal finger pointing to secrets long submerged.",
+        "In the heart of the village, a pool shimmering with an otherworldly glow beckons curiously to passersby, who wonder if a quick dip might result in either eternal wisdom or an extra toe.",
+        "Along the water’s edge, an assembly of chatty waterfowl hold what appears to be a very serious debate, likely discussing the outrageous inflation of breadcrumbs.",
+        "An isolated dock, offering no boat nor a swimmer’s pier, extends into the misty lake, the perfect spot for pondering life’s mysteries or perhaps for casting a line to catch the legendary, and quite articulate, whispering fish."
+      ],
+      "things": [
+        "You stumble upon a tattered sailor’s hat that hums sea shanties when the moon is high.",
+        "You find a series of ornamental doorknobs, each engraved with a different mood, mysteriously affecting the holder’s emotions.",
+        "You come across a smooth, almost iridescent stone that skips on solid ground as if it were water.",
+        "You discover a collection of tiny, sealed bottles, each containing what appears to be a different weather pattern swirling inside.",
+        "You find a pair of spectacles with lenses that tint the world in sepia tones and reveal ghostly script in ancient books.",
+        "You unearth an old, waterproof pouch filled with maps to fantastical places that rearrange their routes every sunrise."
+      ]
     }
   },
   {
@@ -580,9 +1058,28 @@
     "bottom": "land",
     "left": "water",
     "details": {
-      "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
-      "things": ["some old bones", "a funny knife", "a tiny mouse"]
+      "names": [
+        "The Teetering Tower of Tipsy Tom",
+        "Bridge to Swaying Shack Isle",
+        "Twisted Timber Twins of Tadpole Teardrop",
+        "Pierpoint’s Perilous Perch",
+        "The Wobbling Watch of Weary Waters",
+        "The Crooked Castle and Curved Cottage of Capsize Cove"
+      ],
+      "descriptions": [
+        "A tower teeters on the brink of watery disaster, squinting down at its reflection as if to say, ‘I may be leaning, but I’ve still got it.’",
+        "A rickety bridge arches precariously, as though daring adventurers to test their balance and their fate, to reach an island that seems to shrug at the very notion of hospitality.",
+        "A haphazard shack slouches on a hill, its walls gossiping with the wind about the odd choice of location and the view that’s always seemed a bit... off-kilter.",
+        "Two trees perform an aquatic ballet, roots entwined in a watery embrace, while fish dart through the dance—a choreography only nature could contrive."
+      ],
+      "things": [
+        "You come across a squawking Scroll of Squid Ink Recipes, the pages damp but the smell of ocean pot pie wafting from the words.",
+        "You stumble upon a pair of Spectacles of Dubious Foresight, giving you the strangest feeling that you might sneeze – sometime, eventually.",
+        "You find a waterlogged Wizard’s Hat, which upon wearing, causes your hair to sparkle with a constellation of tiny starfish.",
+        "You discover a Self-Fishing Rod, which casts itself at the most dramatic moments, usually snagging old boots instead of fish.",
+        "You unearth a Singing Seashell, that whispers limericks about the clumsy tide when held to your ear.",
+        "You spot an incredibly bored Bridge Troll’s Diary, filled with bad sketches of fish and complaints about the decline in riddle-solving travelers."
+      ]
     }
   },
   {
@@ -592,9 +1089,26 @@
     "bottom": "land",
     "left": "land",
     "details": {
-      "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
-      "things": ["some old bones", "a funny knife", "a tiny mouse"]
+      "names": [
+        "The Bounteous Bazaar of Breezy Bargains",
+        "The Half-Wreck of the Harrowed Harpoon",
+        "Tiny Top’s Singular Sanctuary"
+      ],
+      "descriptions": [
+        "A market awning flaps like it’s trying to sell itself to the breeze, while gulls wheel in negotiation overhead.",
+        "A forlorn ship’s figurehead peers from the surf, its wooden eyes fixed on the treasures it will never loot.",
+        "A minuscule abode perches precariously atop the hill, as though a giant placed it there and forgot about it.",
+        "Salt-crusted flags atop the market snap in salute to every wallet brave enough to weather the storm of commerce.",
+        "A sea-splintered prow juts from the waves, a proud monument to maritime misadventure and barnacle real estate."
+      ],
+      "things": [
+        "You find a spyglass with a lens that always seems to be looking at the wrong kind of fish.",
+        "You come across a captain’s hat that gives advice in salty sailor lingo when worn—most of it unhelpful for anything but tying knots.",
+        "You stumble upon a sopping wet book of sea shanties that, when sung, cause nearby seagulls to harmonize impeccably.",
+        "You discover a pair of boots that squeak with the sound of crashing waves with every step taken on land.",
+        "You uncover an ornate door knocker shaped like a mischievous mermaid that insists on telling knock-knock jokes before allowing anyone to enter.",
+        "You notice a painting that eerily changes from a serene sea view to a tempest depending on the viewer’s mood."
+      ]
     }
   },
   {
@@ -604,9 +1118,29 @@
     "bottom": "land",
     "left": "water",
     "details": {
-      "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
-      "things": ["some old bones", "a funny knife", "a tiny mouse"]
+      "names": [
+        "The Swaying Shores of Noodlewood",
+        "The Lean Grove Pathway",
+        "Stiltshaven Windhouse",
+        "The Dancing Tree Run",
+        "The Whistling Walk of Stickshore",
+        "Tilted Abode By-the-Sea"
+      ],
+      "descriptions": [
+        "A gawky row of slender trees dances awkwardly to the sea’s relentless rhythm, their white bark gleaming like awkward beacons in the sunlight.",
+        "The stone path ambles toward the coast as if it’s had one too many at the local tavern and can’t quite keep in a straight line.",
+        "A whimsically wobbling stilt house perches on the coast, bracing against the wind like an old man squinting into a gale.",
+        "The sea air carries a troubadour’s tune, whistling through the skinny trees, composing a coastal symphony all its own.",
+        "The stilts under the house look like they might walk away on a whim, perhaps to find a less blustery place to settle down."
+      ],
+      "things": [
+        "You stumble upon a gently humming seashell that emits a cozy, warm light every time the wind howls.",
+        "You find a rusty spyglass that shows an overly dramatic sea storm when you look through it on a calm day.",
+        "You come across a knotted wooden wand that can untangle anything except its own elaborate carvings.",
+        "You uncover a tiny book of tide poems, the ink shifting like waves, making it near-impossible to read the same verse twice.",
+        "You discover a wind-chime made from whispered secrets, each tone reveals a gossip of the coastal spirits.",
+        "You spot an old, salt-crusted coat on a hook that seems to whisper tales of the sea when the breeze catches it just right."
+      ]
     }
   },
   {
@@ -616,9 +1150,29 @@
     "bottom": "land",
     "left": "land",
     "details": {
-      "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
-      "things": ["some old bones", "a funny knife", "a tiny mouse"]
+      "names": [
+        "Roundabout Hamlet",
+        "The Spiraling Bazaar of Tiddlywink",
+        "Pondside Gossip Grove",
+        "Merry Merchant Circle",
+        "Twisty Trail Town",
+        "The Quacking Commons"
+      ],
+      "descriptions": [
+        "A duck waddles importantly across the path, as if late for an appointment with the village wise-quacker.",
+        "From a chimney, smoke curls into shapes that vaguely resemble the day's specials at the local tavern.",
+        "A door to a shop swings open, letting out a chorus of chimes and the scent of fresh, albeit possibly magical, baked goods.",
+        "A knotted tree stands guard by the pond, its branches swaying as if to beckon travelers for a gossip and rest.",
+        "A sign hangs askew, advertising 'Potions and Notions' with a smaller inscription that quips, 'Buy one curse, get the second half off.'"
+      ],
+      "things": [
+        "You find a whimsical wind-up toy frog that, when cranked, hops sporadically and croaks out the local tavern's drink specials.",
+        "You come across a tiny, overgrown bookshop where the books are rumored to rearrange themselves to hide the best stories from boring customers.",
+        "You stumble upon a pair of spectacles with lenses that make everything appear upside down, said to be a discarded invention of a local, slightly disoriented wizard.",
+        "You discover a seemingly mundane doormat that courteously greets visitors upon stepping on it, rumored to have been enchanted by a polite but lonely sorcerer.",
+        "You spot an old, weathered signpost with arms pointing in impossible directions, including 'Up', 'Yesterday', and 'The Other Way', inexplicably navigating travelers with uncanny accuracy.",
+        "You unearth a collection of tiny, hand-painted houses that resemble the village shops, which when placed in water, float and bob about as if alive with miniature occupants."
+      ]
     }
   },
   {
@@ -628,9 +1182,28 @@
     "bottom": "water",
     "left": "land",
     "details": {
-      "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
-      "things": ["some old bones", "a funny knife", "a tiny mouse"]
+      "names": [
+        "The Burbling Brookshire",
+        "Gurgling Heights of Bubbledown",
+        "The Puddlefoot Bridge",
+        "Cascade's Crest Tower",
+        "Cove of the Whistling Stairs"
+      ],
+      "descriptions": [
+        "A waterfall chuckles to itself as it playfully leaps off a hillside, disturbing the meditative silence of the manicured moss gardens below.",
+        "Spanning the babbling brook, a rickety bridge teases travelers with its wobbly planks and non-existent handrails, engaging in a silent game of 'will-they-won't-they' tumble.",
+        "Perched atop its haughty hill, a tower steps up into the sky, each level seemingly judging the one below for not reaching high enough.",
+        "A secret cove hides shyly behind the giggling waterfall, its waters whispering tales of the mischievous winds that tickle its surface.",
+        "Streams giggle as they tickle the toes of the hills, before racing each other to the bottom in a marathon of mirth."
+      ],
+      "things": [
+        "You find a set of waterproof playing cards, each card featuring an amusingly dressed frog in various poses of regal absurdity.",
+        "You come across a soggy, half-finished journal with entries detailing the love life of two particularly romantic newts.",
+        "You stumble upon a collection of tiny, ornate bottles, each filled with a different scented liquid that changes its smell with your mood.",
+        "You discover a whimsically carved flute that, when played, produces bubbles instead of notes, much to the delight of the local fish.",
+        "You unearth an intricately patterned umbrella that doesn't seem to keep the rain off but instead, makes the downpour dance to an unheard rhythm.",
+        "You happen upon a pair of enchanted boots that allow the wearer to walk on water, but only in the most frivolous and zigzagging paths."
+      ]
     }
   },
   {
@@ -640,9 +1213,33 @@
     "bottom": "water",
     "left": "land",
     "details": {
-      "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
-      "things": ["some old bones", "a funny knife", "a tiny mouse"]
+      "names": [
+        "The Slumbering Iceberg of Peekaboo Isle",
+        "Glinting Chilltops of Bobbington Bergs",
+        "Sneaky Glaciers of Winkin Wavelet",
+        "The Dozing Frost Giant of Blinkin' Atoll",
+        "Chilly Bluffs of the Gaze-shy Glacier",
+        "The Napping Icecap of Slyrock Isle"
+      ],
+      "descriptions": [
+        "A glacier grumbles and groans, surrendering another icy slab to the sea, where it joins the bobbing assembly of frosty behemoths.",
+        "A seemingly slumbering isle in the midst of the frigid waters momentarily stirs, inspiring a fleeting thought that perhaps it's not just an isle at all.",
+        "From a distance, the icy shoreline appears to pulse with lazy breaths, hinting at secrets hidden beneath its frosty exterior.",
+        "Mountain ice whispers into the sea, flirting with the notion of freedom, while the ocean's cold caress nurtures the fantasy.",
+        "An island with rounded edges winks in and out of sight, playing coy with sailors' senses and sowing seeds of nautical legend."
+      ],
+      "things": [
+        "You find a petrified snowball, suspiciously heavy and warm to the touch, labeled ‘Pocket Furnace: For those not-so-cozy nights!’",
+        "You come across a pair of spectacles with ice-crystal lenses, claiming to offer the wearer 'True Frost Sight – See the world as a penguin does!'",
+        "You stumble upon an elegantly carved horn with frosted edges, a sign attached reads ‘Mammoth Call – results may vary... and be larger than expected!’",
+        "You discover a soggy parchment scroll sealed in a waterproof tube – inside, a treasure map, but every landmark is just a different shaped snowflake.",
+        "You find a frostbitten hat snug on a snowman that seems suspiciously insistent on standing still, even when you poke him.",
+        "You come across a pair of ice skates with blades so sharp they could split a hair or a sea, if one were so inclined.",
+        "You stumble upon a half-submerged chest, its lid slightly ajar to reveal a collection of shivering charades - little dolls that mime hints of buried treasure.",
+        "You discover an old, waterlogged diary bobbing against the shoreline, its entries documenting the daily gossip of the mountain as if it were an old, grumbling neighbour.",
+        "You spy an icicle flute on one of the bobbing ice chunks, that plays a tune colder than the north wind's breath and just might summon something if played at dusk.",
+        "You unearth a snow globe that contains a perfectly scaled model of the 'island,' but when shaken, the replica winks at you."
+      ]
     }
   },
   {
@@ -653,7 +1250,7 @@
     "left": "water",
     "details": {
       "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
+      "descriptions": ["It’s very sticky", "What a strange smell"],
       "things": ["some old bones", "a funny knife", "a tiny mouse"]
     }
   },
@@ -665,7 +1262,7 @@
     "left": "land",
     "details": {
       "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
+      "descriptions": ["It’s very sticky", "What a strange smell"],
       "things": ["some old bones", "a funny knife", "a tiny mouse"]
     }
   },
@@ -677,7 +1274,7 @@
     "left": "land",
     "details": {
       "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
+      "descriptions": ["It’s very sticky", "What a strange smell"],
       "things": ["some old bones", "a funny knife", "a tiny mouse"]
     }
   },
@@ -689,7 +1286,7 @@
     "left": "land",
     "details": {
       "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
+      "descriptions": ["It’s very sticky", "What a strange smell"],
       "things": ["some old bones", "a funny knife", "a tiny mouse"]
     }
   },
@@ -701,7 +1298,7 @@
     "left": "land",
     "details": {
       "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
+      "descriptions": ["It’s very sticky", "What a strange smell"],
       "things": ["some old bones", "a funny knife", "a tiny mouse"]
     }
   },
@@ -713,7 +1310,7 @@
     "left": "land",
     "details": {
       "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
+      "descriptions": ["It’s very sticky", "What a strange smell"],
       "things": ["some old bones", "a funny knife", "a tiny mouse"]
     }
   },
@@ -737,7 +1334,7 @@
     "left": "water",
     "details": {
       "names": ["Skull island", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
+      "descriptions": ["It’s very sticky", "What a strange smell"],
       "things": ["some old bones", "a funny knife", "a tiny mouse"]
     }
   },
@@ -749,7 +1346,7 @@
     "left": "water",
     "details": {
       "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
+      "descriptions": ["It’s very sticky", "What a strange smell"],
       "things": ["some old bones", "a funny knife", "a tiny mouse"]
     }
   },
@@ -761,7 +1358,7 @@
     "left": "land",
     "details": {
       "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
+      "descriptions": ["It’s very sticky", "What a strange smell"],
       "things": ["some old bones", "a funny knife", "a tiny mouse"]
     }
   },
@@ -773,7 +1370,7 @@
     "left": "land",
     "details": {
       "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
+      "descriptions": ["It’s very sticky", "What a strange smell"],
       "things": ["some old bones", "a funny knife", "a tiny mouse"]
     }
   },
@@ -785,7 +1382,7 @@
     "left": "land",
     "details": {
       "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
+      "descriptions": ["It’s very sticky", "What a strange smell"],
       "things": ["some old bones", "a funny knife", "a tiny mouse"]
     }
   },
@@ -797,7 +1394,7 @@
     "left": "land",
     "details": {
       "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
+      "descriptions": ["It’s very sticky", "What a strange smell"],
       "things": ["some old bones", "a funny knife", "a tiny mouse"]
     }
   },
@@ -809,7 +1406,7 @@
     "left": "land",
     "details": {
       "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
+      "descriptions": ["It’s very sticky", "What a strange smell"],
       "things": ["some old bones", "a funny knife", "a tiny mouse"]
     }
   },
@@ -821,7 +1418,7 @@
     "left": "water",
     "details": {
       "names": ["Dark swamp", "Strange murky meadow"],
-      "descriptions": ["It's very sticky", "What a strange smell"],
+      "descriptions": ["It’s very sticky", "What a strange smell"],
       "things": ["some old bones", "a funny knife", "a tiny mouse"]
     }
   }

@@ -49,7 +49,7 @@ h6 {
   background-color: $eggplant;
   padding: 6rem 2rem;
   z-index: 3;
-  color: white;
+  color: $tea-green;
   text-wrap: pretty;
 
   display: flex;
@@ -96,10 +96,6 @@ h6 {
       }
     }
   }
-  #cardDescription {
-    font-family: $font-secondary;
-    font-size: 1.4rem;
-  }
   #cardThingWrap {
     &.explored {
       button {
@@ -108,12 +104,10 @@ h6 {
     }
     #cardThing {
       padding: 1rem 1rem;
-      background: white;
+      background: $tea-green;
       color: $eggplant;
       border-radius: 0.25rem 0.25rem 1rem;
       margin: 2rem 0;
-      outline: 2px $tea-green solid;
-      outline-offset: -4px;
     }
   }
 }
@@ -132,8 +126,8 @@ h6 {
 }
 
 .card {
-  width: 300px; /* Width of the card */
-  height: 600px; /* Height of the card */
+  width: 400px; /* Width of the card */
+  height: 400px; /* Height of the card */
   background-image: url("../map-v3/images/back.jpg"); /* Card background image */
   background-size: cover;
   border-radius: 0.75rem;

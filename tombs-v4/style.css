@@ -33,7 +33,7 @@ h6 {
   background-color: #32356b;
   padding: 6rem 2rem;
   z-index: 3;
-  color: white;
+  color: #c5ebc3;
   text-wrap: pretty;
   display: flex;
   flex-direction: column;
@@ -79,21 +79,15 @@ h6 {
   background-color: white;
   border-color: white;
 }
-.sidebar #cardDescription {
-  font-family: "Forum";
-  font-size: 1.4rem;
-}
 .sidebar #cardThingWrap.explored button {
   display: none;
 }
 .sidebar #cardThingWrap #cardThing {
   padding: 1rem 1rem;
-  background: white;
+  background: #c5ebc3;
   color: #32356b;
   border-radius: 0.25rem 0.25rem 1rem;
   margin: 2rem 0;
-  outline: 2px #c5ebc3 solid;
-  outline-offset: -4px;
 }
 
 #controlWrap {
@@ -110,8 +104,8 @@ h6 {
 }
 
 .card {
-  width: 300px; /* Width of the card */
-  height: 600px; /* Height of the card */
+  width: 400px; /* Width of the card */
+  height: 400px; /* Height of the card */
   background-image: url("../map-v3/images/back.jpg"); /* Card background image */
   background-size: cover;
   border-radius: 0.75rem;
