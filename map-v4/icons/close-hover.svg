@@ -4,7 +4,7 @@
 	 viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
 <style type="text/css">
 	.circle{fill:#fff;}
-	.cross{fill:#fff;}
+	.cross{fill:#32356b;}
 </style>
 <path class="cross" d="M7.1,14.3l2.9-2.9l2.9,2.9c0.4,0.4,1,0.4,1.4,0l0,0c0.4-0.4,0.4-1,0-1.4L11.4,10l2.9-2.9c0.4-0.4,0.4-1,0-1.4
 	l0,0c-0.4-0.4-1-0.4-1.4,0L10,8.6L7.1,5.7c-0.4-0.4-1-0.4-1.4,0l0,0c-0.4,0.4-0.4,1,0,1.4L8.6,10l-2.9,2.9c-0.4,0.4-0.4,1,0,1.4l0,0

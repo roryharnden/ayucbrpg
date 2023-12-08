@@ -141,13 +141,16 @@ function changeCardBackground() {
     placeNewCardIfEmpty(x - 1, y);
     usedCardIds.push(matchingCard.id);
 
-    // Create a remove button and add it to the card
-    var removeButton = document.createElement("button");
-    removeButton.classList.add("remove-button", "hidden");
-    removeButton.onclick = function () {
-      removeCard(x, y);
-    };
-    this.appendChild(removeButton);
+    // Create a remove button and add it to the card, except for the initial card
+    if (this.getAttribute("id") !== "initialCard") {
+      var removeButton = document.createElement("button");
+      removeButton.classList.add("remove-button", "hidden");
+      removeButton.textContent = ""; // Add appropriate text/icon
+      removeButton.onclick = function () {
+        removeCard(x, y);
+      };
+      this.appendChild(removeButton);
+    }
 
     applyRandomStyle(this); // Apply random style to the new card
 
@@ -202,19 +205,29 @@ function addHoverListener(cardElement) {
     hoverTimeout = setTimeout(() => {
       if (!this.classList.contains("unknown-card")) {
         var cardId = parseInt(this.getAttribute("data-card-id"));
-        currentHoveredCardId = cardId; // Update the global variable
-        console.log("Hovered over card ID:", currentHoveredCardId); // Debugging line
+        console.log("Hovered over card ID:", cardId); // Debugging line
 
-        if (cardDetails[cardId]) {
-          updateSidebar(cardId);
+        // Only update the sidebar if this is a different card
+        if (cardId !== currentHoveredCardId) {
+          currentHoveredCardId = cardId; // Update the global variable
+          if (cardDetails[cardId]) {
+            updateSidebar(cardId);
+          }
         }
       }
     }, 250); // Delay before activating hover
   });
 
   cardElement.addEventListener("mouseout", function () {
-    // Clear the timeout and reset the currentHoveredCardId
+    // Clear the timeout
     clearTimeout(hoverTimeout);
+  });
+}
+
+function removeHoveredClassFromAllCards() {
+  const allCards = document.querySelectorAll(".card");
+  allCards.forEach((card) => {
+    card.classList.remove("current-card");
   });
 }
 
@@ -226,6 +239,16 @@ function updateSidebar(cardId) {
     const cardDetailData = cardData.find(
       (card) => card.id === parseInt(cardId)
     ).details;
+
+    removeHoveredClassFromAllCards();
+
+    const currentCardElement = document.querySelector(
+      `.card[data-card-id="${cardId}"]`
+    );
+    if (currentCardElement) {
+      currentCardElement.classList.add("current-card");
+      applyRandomStyle(currentCardElement);
+    }
 
     if (cardDetailData) {
       var cardName = document.getElementById("cardName");
@@ -483,6 +506,14 @@ function reconstructMapFromCompressedState(compressedState) {
     usedCardIds.push(parseInt(cardId)); // Add the card ID to the list of used cards
   });
 
+  var initialCardId = document
+    .getElementById("initialCard")
+    .getAttribute("data-card-id");
+  if (initialCardId) {
+    currentHoveredCardId = parseInt(initialCardId);
+    updateSidebar(currentHoveredCardId);
+  }
+
   reevaluateForUnknownCards(); // Optionally reevaluate for adding new unknown cards if needed
   removeInvalidUnknownCards(); // Remove invalid 'unknown' cards
 }
@@ -575,14 +606,16 @@ function placeCardAt(x, y, cardId, detailIndices) {
   addClickDetection(card);
   addHoverListener(card);
 
-  // Create and add a remove button to the card
-  var removeButton = document.createElement("button");
-  removeButton.classList.add("remove-button", "hidden");
-  removeButton.textContent = ""; // or any other text/icon you prefer
-  removeButton.onclick = function () {
-    removeCard(x, y);
-  };
-  card.appendChild(removeButton);
+  // Check if the card is not the initial card before adding the remove button
+  if (card.getAttribute("id") !== "initialCard") {
+    var removeButton = document.createElement("button");
+    removeButton.classList.add("remove-button", "hidden");
+    removeButton.textContent = ""; // or any other text/icon you prefer
+    removeButton.onclick = function () {
+      removeCard(x, y);
+    };
+    card.appendChild(removeButton);
+  }
 
   // Apply random style or other specific styles if needed
   applyRandomStyle(card);
