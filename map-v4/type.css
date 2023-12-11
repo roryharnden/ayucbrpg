@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Gooper Text";
+  src: url("./fonts/GooperText7-Light.woff2") format("woff2"), url("./fonts/GooperText7-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gooper Text";
+  src: url("./fonts/GooperText7-Regular.woff2") format("woff2"), url("./fonts/GooperText7-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gooper Text";
+  src: url("./fonts/GooperText7-SemiBold.woff2") format("woff2"), url("./fonts/GooperText7-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Sans Merci";
+  src: url("./fonts/SansMerci-Bold.woff2") format("woff2"), url("./fonts/SansMerci-Bold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Sans Merci";
+  src: url("./fonts/SansMerci-BoldItalic.woff2") format("woff2"), url("./fonts/SansMerci-BoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Sans Merci";
+  src: url("./fonts/SansMerci-Regular.woff2") format("woff2"), url("./fonts/SansMerci-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Sans Merci";
+  src: url("./fonts/SansMerci-Italic.woff2") format("woff2"), url("./fonts/SansMerci-Italic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Sylexiad Serif";
+  src: url("./fonts/SylexiadSerifThin.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Sylexiad Serif";
+  src: url("./fonts/SylexiadSerifThin-Italic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Sylexiad Serif";
+  src: url("./fonts/SylexiadSerifThin-Bold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Sylexiad Serif";
+  src: url("./fonts/SylexiadSerifThin-BoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+}/*# sourceMappingURL=type.css.map */

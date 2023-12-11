@@ -696,7 +696,7 @@
     "left": "land",
     "details": {
       "names": [
-        "Boulder’s Fling Glade",
+        "Boulder Flung",
         "Leafcloud Cottage",
         "Tipsy Tree Copse",
         "The Tower of Precarious Peaks",
@@ -1054,7 +1054,7 @@
         "The Soggy Hearthsteads",
         "Mosswhisper Hamlet",
         "Poplarshores Village",
-        "The Timeworn Jetty of Nowhere",
+        "The Timeworn Timeworm to Nowhere",
         "Glimmerpond Hollow",
         "Evershine Sip Basin"
       ],
@@ -1617,9 +1617,9 @@
     "left": "land",
     "details": {
       "names": [
-        "The Whispers’ Cove",
+        "Whispers’ Cove",
         "The Cliffside Chatter Hollow",
-        "Seagull’s Respite Grotto",
+        "Gull Grotto",
         "Brick-abode Trail"
       ],
       "descriptions": [
