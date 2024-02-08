@@ -173,6 +173,16 @@ p {
   outline: 2px #c5ebc3 solid;
   outline-offset: -4px;
 }
+.sidebar .feedback-link {
+  color: white;
+  font-weight: 700;
+  font-size: 0.875rem;
+  text-decoration-color: #c5ebc3;
+  text-underline-offset: 3px;
+}
+.sidebar .feedback-link:hover {
+  text-decoration: none;
+}
 
 .site-branding .logo {
   margin-bottom: 3rem;

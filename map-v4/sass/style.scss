@@ -113,7 +113,6 @@ p {
     font-weight: 300;
   }
   #cardThingWrap {
-
     margin-bottom: 2rem;
     &.explored {
       button {
@@ -128,6 +127,17 @@ p {
       margin: 2rem 0;
       outline: 2px $tea-green solid;
       outline-offset: -4px;
+    }
+  }
+  .feedback-link {
+    color: white;
+    // font-family: $font-secondary;
+    font-weight: 700;
+    font-size: 0.875rem;
+    text-decoration-color: $tea-green;
+    text-underline-offset: 3px;
+    &:hover {
+      text-decoration: none;
     }
   }
 }
