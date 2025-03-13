@@ -100,3 +100,58 @@ function setQueryStringParameter(name, value) {
     params.set(name, value);
     window.history.replaceState({}, "", decodeURIComponent(`${location.pathname}?${params}`));
 }
+
+// Fetch and parse the CSV file
+async function loadCSV() {
+    const response = await fetch('cards.csv');
+    const data = await response.text();
+    displayTable(data);
+}
+
+function displayTable(data) {
+    const allRows = data.split(/\r?\n|\r/);
+    let table = '<table>';
+    
+    allRows.forEach((row, index) => {
+        if (index === 0) {
+            table += '<thead><tr>';
+        } else {
+            table += '<tr>';
+        }
+
+        const cells = row.split(',');
+        cells.forEach(cell => {
+            if (index === 0) {
+                table += `<th>${cell}</th>`;
+            } else {
+                table += `<td>${cell}</td>`;
+            }
+        });
+
+        if (index === 0) {
+            table += '</tr></thead><tbody>';
+        } else {
+            table += '</tr>';
+        }
+    });
+
+    table += '</tbody></table>';
+    document.body.insertAdjacentHTML('beforeend', table);
+
+    // Add click handler to button
+    document.querySelector('button').addEventListener('click', highlightRandomRow);
+}
+
+function highlightRandomRow() {
+    const rows = document.querySelectorAll('table tr');
+    const rnd = Math.floor(Math.random() * (rows.length - 1)) + 1;
+    
+    // Reset all rows
+    rows.forEach(row => row.style.backgroundColor = 'transparent');
+    
+    // Highlight random row
+    rows[rnd].style.backgroundColor = '#fff';
+}
+
+// Start loading when page loads
+loadCSV();
