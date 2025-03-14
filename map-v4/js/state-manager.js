@@ -3,6 +3,7 @@ import { usedCardIds } from './utils.js';
 import { getCardDetails } from './card-details.js';
 import { calculateLeftPosition, calculateTopPosition, addClickDetection, addHoverListener, reevaluateForUnknownCards, removeInvalidUnknownCards, removeCard } from './card-manager.js';
 import { applyRandomStyle, cardWidth, cardHeight } from './utils.js';
+import { fitAllCardsInView } from './ui-controls.js';
 
 // Encode the current state of the map
 export function encodeCardState() {
@@ -65,6 +66,12 @@ export function reconstructMapFromState(compressedState) {
   
   reevaluateForUnknownCards();
   removeInvalidUnknownCards();
+  
+  // Increase the delay to ensure all cards are properly rendered and positioned
+  setTimeout(() => {
+    console.log("Fitting all cards in view after map reconstruction");
+    fitAllCardsInView();
+  }, 500);
 }
 
 // Place a card at a specific position
